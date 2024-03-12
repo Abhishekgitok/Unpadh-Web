@@ -26,7 +26,7 @@ function Chooseprogram  (){
             
             {/*********************** * Right side Section **************************** */}
             <div className='mt-8'>
-                <img src="./public/images/Group .png" alt="img" />
+                <img src="Group .png" alt="img" />
             </div>
               </div>
             

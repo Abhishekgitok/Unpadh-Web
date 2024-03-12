@@ -16,37 +16,37 @@ function ProgramCard() {
 
     const card = [
         {
-            img: "public/icon/icon.png",
+            img: "Icon.png",
             title: "Expert Mentor’s",
             subtitle: "Join Now",
             icon: <FcRight />
         },
         {
-            img: "public/icon/Icon (1).png",
+            img: "Icon (1).png",
             title: "Expert Mentor’s",
             subtitle: "Join Now",
             icon: <FcRight />
         },
         {
-            img: "public/icon/icon(2).png",
+            img: "Icon(2).png",
             title: "Expert Mentor’s",
             subtitle: "Join Now",
             icon: <FcRight />
         },
         {
-            img: "public/icon/Icon (3).png",
+            img: "Icon (3).png",
             title: "Expert Mentor’s",
             subtitle: "Join Now",
             icon: <FcRight />
         },
         {
-            img: "public/icon/Icon (4).png",
+            img: "Icon (4).png",
             title: "Expert Mentor’s",
             subtitle: "Join Now",
             icon: <FcRight />
         },
         {
-            img: "public/icon/Icon (5).png",
+            img: "Icon (5).png",
             title: "Expert Mentor’s",
             subtitle: "Join Now",
             icon: <FcRight />

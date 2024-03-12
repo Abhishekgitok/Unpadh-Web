@@ -70,7 +70,7 @@ function Header(props) {
               
             </div>
             <div className=" absolute  bottom-12 left-[108px] h-[100px] w-[300px]">
-               <img src="./public/images/our Customers.png" alt="" />
+               <img src="our Customers.png" alt="" />
               </div>
 
             {/*********************** * Right side Section **************************** */}
@@ -80,7 +80,7 @@ function Header(props) {
                 <div class="absolute inset-0 top-[95px] left-[50px] h-[400px] w-[400px] bg-teal-400   rounded-full flex items-center justify-center"></div>
               </div>
               <div className="absolute   flex items-center w-[750px] right-[8px] justify-center  bottom- [1px] top-[37px] left-[-158px] ">
-                <img src="./public/images/student.png" alt="" />
+                <img src="student.png" alt="" />
               </div>
             </div>
             <div className="absolute flex  justify-end right-10 top-[160px]">

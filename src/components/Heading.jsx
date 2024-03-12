@@ -20,7 +20,7 @@ function Header(props) {
 
           </div>
           <div className="absolute top-[160px] left-3">
-            <img src="./public/images/Group 17.png" alt="" />
+            <img src="Group 17.png" alt="" />
           </div>
         </div>
 
