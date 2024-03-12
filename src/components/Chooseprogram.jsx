@@ -1,0 +1,38 @@
+import React from 'react'
+import ChooseCard from './Cards/Choosecard'
+
+function Chooseprogram  (){
+  return (
+    <>
+      <section className="  h-screen max-w-[1280px] mx-auto mt-16 items-center   ">
+            
+        
+                      {/*********************** * Left side Section **************************** */}
+              
+              <div className='mx-auto justify-between flex'>
+              <div className='max-w-[40%]'>
+               <div className='text-[40px] font-semibold tracking-wide '>
+                 <h1>Why to choose<br></br> our <span className='text-background'>program</span> </h1>
+                </div >
+                <div className='mt-5 text-[15px] leading-8'>
+                    <h1>We are the largest and oldest provider of online education services in the world, best served and with professional, smart and intelligent teachers, best graduates from the best campuses in the world</h1>
+
+                </div>
+
+                <div className='mt-16'>
+                 <ChooseCard/>
+                  </div>
+               </div>
+            
+            {/*********************** * Right side Section **************************** */}
+            <div className='mt-8'>
+                <img src="./public/images/Group .png" alt="img" />
+            </div>
+              </div>
+            
+      </section>
+    </>
+  )
+}
+
+export default Chooseprogram
