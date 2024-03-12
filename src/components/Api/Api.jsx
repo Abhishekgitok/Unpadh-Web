@@ -1,4 +1,6 @@
 // import { RiGraduationCapFill } from "react-icons/ri";
+import { IoMdTime } from "react-icons/io";
+import { IoEyeSharp } from "react-icons/io5";
 
 const cardData =[
     {
@@ -9,7 +11,9 @@ const cardData =[
         time: "4h 45m",
         views:"2,307,131",
         price: "$499",
-        maxprice:"$899"
+        maxprice:"$899",
+        timeicon:<IoMdTime />,
+        viewicon:<IoEyeSharp />
 
 
     },
@@ -21,7 +25,9 @@ const cardData =[
         time: "4h 45m",
         views:"2,307,131",
         price:"$499",
-        maxprice:"$699"
+        maxprice:"$699",
+        timeicon:<IoMdTime />,
+        viewicon:<IoEyeSharp />
 
 
     },
@@ -33,7 +39,9 @@ const cardData =[
         time: "4h 45m",
         views:"2,307,131",
         price:"$499",
-        maxprice:"$799"
+        maxprice:"$799",
+        timeicon:<IoMdTime />,
+        viewicon:<IoEyeSharp />
 
 
     },
@@ -45,7 +53,9 @@ const cardData =[
         time: "4h 45m",
         views:"2,307,131",
         price:"$499",
-        maxprice:"$799"
+        maxprice:"$799",
+        timeicon:<IoMdTime />,
+        viewicon:<IoEyeSharp />
 
     },
     {
@@ -55,7 +65,9 @@ const cardData =[
         time: "4h 45m",
         views:"2,307,131",
         price:"499",
-        maxprice:"$799"
+        maxprice:"$799",
+        timeicon:<IoMdTime />,
+        viewicon:<IoEyeSharp />
 
 
     },
@@ -67,7 +79,10 @@ const cardData =[
         time: "4h 45m",
         views:"2,307,131",
         price:"499",
-        maxprice:"$799"
+        maxprice:"$799",
+        timeicon:<IoMdTime />,
+        viewicon:<IoEyeSharp />
+
 
 
     },

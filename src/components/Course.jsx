@@ -49,7 +49,7 @@ function Course () {
           </div>
         </div>
         {/********************Slider Card*************************/}
-             <div className='relative'>
+             <div className=''>
               <div className='mt-5 absolute right-6'>
               <button type="button" class="py-2.5 px-5 me-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white dark:bg-gray-800 rounded-full border-2  hover:bg-transparent  focus:z-10  dark:focus:ring-gray-700  dark:text-gray-400 dark:hover:text-textcolor hover:border-2 hover:border-background focus:bg-transparent focus:border-background focus:text-textcolor " onClick={() => setapiData(cardData)}>All</button>
 
@@ -67,11 +67,11 @@ function Course () {
                 <div class=" flex flex-wrap gap-8 justify-center   mt-24 ">
                     
                      {apiData.map((ele) =>{
-                              const {img, title, name, time, views, price, maxprice}= ele;
+                              const {img, title, name, time, views, price, maxprice,timeicon, viewicon}= ele;
 
                    return (
 
-                   <div className='bg-gray-700 transform transition duration-300  hover:scale-105 cursor-pointer rounded-lg shadow-xl h-[380px] w-[400px]   justify-center  items-center overflow-hidden'>
+                   <div className='bg-gray-700  transform transition duration-300  hover:scale-105 cursor-pointer rounded-lg shadow-xl h-[380px] w-[400px]   justify-center  items-center overflow-hidden'>
                           <a href="#" >
                                 <img className='h-[180px] rounded-t-lg w-full    items-center justify-center mx-auto' src={img} alt="" />
                          </a>
@@ -80,11 +80,13 @@ function Course () {
                          <h1>{title}</h1>
                        </div>
                       
-                       <div className='mt-5 justify-around flex text-gray-300'>
+                  <div className='mt-5 justify-around relative  flex text-gray-300'>
                        <span>{name}</span>
-                       <span>{time}</span>
+                       <span className='absolute right-[190px] top-[4px]'>{timeicon}</span>
+                       <span className='mr-[-20px]'>{time}</span>
+                       <span className='absolute right-24 top-[5px]'>{viewicon}</span>
                        <span>{views}</span>
-                       </div>
+                    </div>
 
                        <div className='mt-8 justify-start gap-5 ml-6 font-semibold text-2xl text-background flex'>
                           <h1>{price}</h1>
