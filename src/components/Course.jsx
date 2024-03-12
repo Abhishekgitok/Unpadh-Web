@@ -50,7 +50,7 @@ function Course () {
         </div>
         {/********************Slider Card*************************/}
              <div className=''>
-              <div className='mt-5 absolute right-6'>
+              <div className='mt-5 absolute right-32'>
               <button type="button" class="py-2.5 px-5 me-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white dark:bg-gray-800 rounded-full border-2  hover:bg-transparent  focus:z-10  dark:focus:ring-gray-700  dark:text-gray-400 dark:hover:text-textcolor hover:border-2 hover:border-background focus:bg-transparent focus:border-background focus:text-textcolor " onClick={() => setapiData(cardData)}>All</button>
 
               <button type="button" class="py-2.5 px-5 me-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white dark:bg-gray-800 rounded-full border-2  hover:bg-transparent  focus:z-10  dark:focus:ring-gray-700  dark:text-gray-400 dark:hover:text-textcolor hover:border-2 hover:border-background focus:bg-transparent focus:border-background focus:text-textcolor" onClick={() => filterItem('engineering')}>Engineering</button>

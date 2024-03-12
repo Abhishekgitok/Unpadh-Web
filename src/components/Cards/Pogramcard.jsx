@@ -61,10 +61,10 @@ function ProgramCard() {
                 {card.map((data, index) => (
                     <div key={index} className=" h-[250px] rounded overflow-hidden  bg-slate-50  shadow-slate-400 border-2 hover: transform transition duration-500 hover:scale-90 hover:shadow-md  justify-center items-start flex cursor-pointer" >
                         <div className=" ">
-                            <div className=" h-14 w-14  mt-8 items-center mx-auto justify-center">
+                            <div className=" h-20 w-20  mt-8 items-center mx-auto justify-center">
                                 <img src={data.img} alt="icon" />
                             </div>
-                            <div className=" text-center mt-10 text-blue-950  text-[20px] font-semibold">
+                            <div className=" text-center mt-8 text-blue-950  text-[20px] font-semibold">
                                 <h1>{data.title}</h1>
                             </div>
                             <div className="mt-10 flex justify-center gap-8">
