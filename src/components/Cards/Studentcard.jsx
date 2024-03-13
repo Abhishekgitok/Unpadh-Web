@@ -32,7 +32,7 @@ function StudentCard() {
     },
     {
       img: "women1.jpg",
-      title: "Bachlor's Degree",
+      title: "I am profoundly grateful for the unparalleled educational journey your platform has enabled me to undertake. The abundance of resources and opportunities has been instrumental in equipping me with the skills and knowledge necessary for success. ",
       subtitle: "Roshni Srivastav",
       course: "MBA Student",
     },
