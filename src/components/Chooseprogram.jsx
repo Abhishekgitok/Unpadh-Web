@@ -4,7 +4,7 @@ import ChooseCard from './Cards/Choosecard'
 function Chooseprogram  (){
   return (
     <>
-      <section className="  h-screen max-w-[1280px] mx-auto mt-16 items-center   ">
+      <section className=" max-w-[1280px] mx-auto mt-16 items-center   ">
             
         
                       {/*********************** * Left side Section **************************** */}

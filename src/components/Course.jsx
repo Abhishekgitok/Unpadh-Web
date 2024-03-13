@@ -1,6 +1,7 @@
 
 import React, {useState} from 'react';
 import cardData from './Api/Api';
+import { FaAngleRight } from "react-icons/fa6";
 
 import Slider from "react-slick";
 // Import css files
@@ -25,7 +26,14 @@ function Course () {
          setapiData(updateditems);
     } 
 
- 
+   const sliderLeft = () =>{
+   var slider = document.getElementById('slider')
+      slider.scrollLeft = slider.scrollLeft - 500
+   }
+   const sliderRight = () =>{
+   var slider = document.getElementById('slider')
+      slider.scrollLeft = slider.scrollLeft + 500
+   }
 
 
   return (
@@ -49,8 +57,10 @@ function Course () {
           </div>
         </div>
         {/********************Slider Card*************************/}
-             <div className=''>
-              <div className='mt-5 absolute right-32'>
+        {/* <div className='absolute right-[700px] top-[128.6rem] text-4xl text-text-gray-900'>
+              <FaAngleRight onClick={sliderLeft} size={40}/>
+              </div> */}
+              <div id='slider' className='mt-5 absolute right-[150px] w-[30%] scrollbar-hide  overflow-x-scroll  whitespace-nowrap scroll-smooth'>
               <button type="button" class="py-2.5 px-5 me-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white dark:bg-gray-800 rounded-full border-2  hover:bg-transparent  focus:z-10  dark:focus:ring-gray-700  dark:text-gray-400 dark:hover:text-textcolor hover:border-2 hover:border-background focus:bg-transparent focus:border-background focus:text-textcolor " onClick={() => setapiData(cardData)}>All</button>
 
               <button type="button" class="py-2.5 px-5 me-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white dark:bg-gray-800 rounded-full border-2  hover:bg-transparent  focus:z-10  dark:focus:ring-gray-700  dark:text-gray-400 dark:hover:text-textcolor hover:border-2 hover:border-background focus:bg-transparent focus:border-background focus:text-textcolor" onClick={() => filterItem('engineering')}>Engineering</button>
@@ -60,11 +70,19 @@ function Course () {
               <button type="button" class="py-2.5 px-5 me-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white dark:bg-gray-800 rounded-full border-2  hover:bg-transparent  focus:z-10  dark:focus:ring-gray-700  dark:text-gray-400 dark:hover:text-textcolor hover:border-2 hover:border-background focus:bg-transparent focus:border-background focus:text-textcolor" onClick={() => filterItem('management')}>Management</button>
 
               <button type="button" class="py-2.5 px-5 me-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white dark:bg-gray-800 rounded-full border-2  hover:bg-transparent  focus:z-10  dark:focus:ring-gray-700  dark:text-gray-400 dark:hover:text-textcolor hover:border-2 hover:border-background focus:bg-transparent focus:border-background focus:text-textcolor" onClick={() => filterItem('Design')}>Design</button>
+              <button type="button" class="py-2.5 px-5 me-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white dark:bg-gray-800 rounded-full border-2  hover:bg-transparent  focus:z-10  dark:focus:ring-gray-700  dark:text-gray-400 dark:hover:text-textcolor hover:border-2 hover:border-background focus:bg-transparent focus:border-background focus:text-textcolor" onClick={() => filterItem('Design')}>Design</button>
+              <button type="button" class="py-2.5 px-5 me-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white dark:bg-gray-800 rounded-full border-2  hover:bg-transparent  focus:z-10  dark:focus:ring-gray-700  dark:text-gray-400 dark:hover:text-textcolor hover:border-2 hover:border-background focus:bg-transparent focus:border-background focus:text-textcolor" onClick={() => filterItem('Design')}>Design</button>
+              <button type="button" class="py-2.5 px-5 me-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white dark:bg-gray-800 rounded-full border-2  hover:bg-transparent  focus:z-10  dark:focus:ring-gray-700  dark:text-gray-400 dark:hover:text-textcolor hover:border-2 hover:border-background focus:bg-transparent focus:border-background focus:text-textcolor" onClick={() => filterItem('Design')}>Design</button>
+              <button type="button" class="py-2.5 px-5 me-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white dark:bg-gray-800 rounded-full border-2  hover:bg-transparent  focus:z-10  dark:focus:ring-gray-700  dark:text-gray-400 dark:hover:text-textcolor hover:border-2 hover:border-background focus:bg-transparent focus:border-background focus:text-textcolor" onClick={() => filterItem('Design')}>Design</button>
                 
               </div>
-             </div>
-
-                <div class=" flex flex-wrap gap-8 justify-center   mt-24 ">
+              <div className='absolute right-[120px] top-[128.6rem] text-4xl text-text-gray-900'>
+              <FaAngleRight className='cursor-pointer' onClick={sliderRight} />
+              </div>
+            
+             
+                <div className=" flex flex-wrap   gap-8 justify-center items-center   mt-24 ">
+             
                     
                      {apiData.map((ele) =>{
                               const {img, title, name, time, views, price, maxprice,timeicon, viewicon}= ele;
@@ -96,11 +114,9 @@ function Course () {
                         
                   </div>
             )})}
-                     
-                        
-                      
-                       
-                </div>
+                   </div>
+               
+                
                   
 
 

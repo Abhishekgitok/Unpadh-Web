@@ -4,6 +4,8 @@ import Slider from "react-slick";
 // Import css files
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import'./programcard.css';
+
 
 function ProgramCard() {
     const settings = {
@@ -56,7 +58,7 @@ function ProgramCard() {
     ];
 
     return (
-        <div className=" m-auto">
+        <div className=" ">
             <Slider {...settings}>
                 {card.map((data, index) => (
                     <div key={index} className=" h-[250px] rounded overflow-hidden  bg-slate-50  shadow-slate-400 border-2 hover: transform transition duration-500 hover:scale-90 hover:shadow-md  justify-center items-start flex cursor-pointer" >

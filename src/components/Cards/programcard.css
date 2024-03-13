@@ -1,0 +1,21 @@
+.slick-slide > div{
+    margin: 0 15px;
+    
+  }
+  .slick-arrow:before{
+    color: #52B9A6;
+    font-size: 40px;
+  
+  }
+  .slick-prev{
+    top: -60px;
+    left: 1170px;
+  }
+  .slick-next{
+    right: 26px;
+     top : -60px;
+  }
+  .slick-dots li.slick-active button:before{
+    color: #52B9A6;
+    opacity:1;
+  }

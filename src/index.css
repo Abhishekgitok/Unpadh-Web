@@ -42,7 +42,7 @@ html{
 }
 
 
-.slick-slide > div{
+/* .slick-slide > div{
   margin: 0 15px;
   
 }
@@ -62,4 +62,4 @@ html{
 .slick-dots li.slick-active button:before{
   color: #52B9A6;
   opacity:1;
-}
+} */
