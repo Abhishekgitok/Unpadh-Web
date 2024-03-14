@@ -5,7 +5,7 @@ function HeroSection() {
   const cols = 4;
   return (
     <>
-      <section className=" w-full  md:h-[83vh] overflow-hidden   bg-background mx-auto items-center justify-center   ">
+      <section className=" w-full  h-[83vh] overflow-hidden   bg-background mx-auto items-center justify-center   ">
         <div className=" w-full justify-center  items-center  ">
           <div className="   flex mx-auto  justify-around  ">
             {/*************************************Left Side Section Start******************************************/}
