@@ -59,7 +59,8 @@ const cardData =[
 
     },
     {
-        img:"card.jpg",
+        category:"engineering",
+        img:"Android.avif",
         title: "Programming Foundations: Algorithm",
         name: "Suraubh Sharma",
         time: "4h 45m",
@@ -68,6 +69,21 @@ const cardData =[
         maxprice:"$799",
         timeicon:<IoMdTime />,
         viewicon:<IoEyeSharp />
+
+
+    },
+    {
+        category:"engineering",
+        img:"Mern.png",
+        title: "Full Stack using MERN ",
+        name: "Suraubh Sharma",
+        time: "4h 45m",
+        views:"2,307,131",
+        price:"499",
+        maxprice:"$799",
+        timeicon:<IoMdTime />,
+        viewicon:<IoEyeSharp />
+
 
 
     },

@@ -1,7 +1,8 @@
 // App.js
 import React from 'react';
-import Nabar from './components/Navbar';
-import Header from './components/Header';
+
+import Nav from './components/Navbar/Menubar';
+import HeroSection from './components/HeroSection';
 import Heading from './components/Heading';
 import Program from './components/Program';
 import Course from './components/Course';
@@ -10,12 +11,13 @@ import Student from './components/Student';
 
 
 
+
 function App() {
   return (
     
-      <main className="max-w-[1920px] bg-white mx-auto overflow-hidden  ">
-      <Nabar/>
-      <Header/>
+      <main className=" bg-white mx-auto overflow-hidden   ">
+       <Nav/>
+      <HeroSection/>
       <Heading/>
       <Program/>
       <Course/>

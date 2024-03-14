@@ -57,31 +57,35 @@ function Course () {
           </div>
         </div>
         {/********************Slider Card*************************/}
-        {/* <div className='absolute right-[700px] top-[128.6rem] text-4xl text-text-gray-900'>
-              <FaAngleRight onClick={sliderLeft} size={40}/>
-              </div> */}
-              <div id='slider' className='mt-5 absolute right-[150px] w-[30%] scrollbar-hide  overflow-x-scroll  whitespace-nowrap scroll-smooth'>
-              <button type="button" class="py-2.5 px-5 me-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white dark:bg-gray-800 rounded-full border-2  hover:bg-transparent  focus:z-10  dark:focus:ring-gray-700  dark:text-gray-400 dark:hover:text-textcolor hover:border-2 hover:border-background focus:bg-transparent focus:border-background focus:text-textcolor " onClick={() => setapiData(cardData)}>All</button>
+       <div className='flex mx-auto justify-around  items-center '>
+       <div id='slider' className='mt-5    w-[60%]  scrollbar-hide  overflow-x-scroll  whitespace-nowrap scroll-smooth'>
+              <button type="button" class="py-2.5 px-5 me-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-slate-300 rounded-full border-2  hover:bg-transparent  focus:z-10     hover:border-2 hover:border-background focus:bg-transparent focus:border-background focus:text-textcolor " onClick={() => setapiData(cardData)}>All</button>
 
-              <button type="button" class="py-2.5 px-5 me-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white dark:bg-gray-800 rounded-full border-2  hover:bg-transparent  focus:z-10  dark:focus:ring-gray-700  dark:text-gray-400 dark:hover:text-textcolor hover:border-2 hover:border-background focus:bg-transparent focus:border-background focus:text-textcolor" onClick={() => filterItem('engineering')}>Engineering</button>
+              <button type="button" class="py-2.5 px-5 me-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-slate-300  rounded-full border-2  hover:bg-transparent  focus:z-10     hover:border-2 hover:border-background focus:bg-transparent focus:border-background focus:text-textcolor" onClick={() => filterItem('engineering')}>Engineering</button>
 
-              <button type="button" class="py-2.5 px-5 me-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white dark:bg-gray-800 rounded-full border-2  hover:bg-transparent  focus:z-10  dark:focus:ring-gray-700  dark:text-gray-400 dark:hover:text-textcolor hover:border-2 hover:border-background focus:bg-transparent focus:border-background focus:text-textcolor" onClick={() => filterItem('science')}>Science</button>
+              <button type="button" class="py-2.5 px-5 me-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-slate-300 rounded-full border-2  hover:bg-transparent  focus:z-10     hover:border-2 hover:border-background focus:bg-transparent focus:border-background focus:text-textcolor" onClick={() => filterItem('science')}>Science</button>
 
-              <button type="button" class="py-2.5 px-5 me-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white dark:bg-gray-800 rounded-full border-2  hover:bg-transparent  focus:z-10  dark:focus:ring-gray-700  dark:text-gray-400 dark:hover:text-textcolor hover:border-2 hover:border-background focus:bg-transparent focus:border-background focus:text-textcolor" onClick={() => filterItem('management')}>Management</button>
+              <button type="button" class="py-2.5 px-5 me-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-slate-300 rounded-full border-2  hover:bg-transparent  focus:z-10    r hover:border-2 hover:border-background focus:bg-transparent focus:border-background focus:text-textcolor" onClick={() => filterItem('management')}>Management</button>
 
-              <button type="button" class="py-2.5 px-5 me-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white dark:bg-gray-800 rounded-full border-2  hover:bg-transparent  focus:z-10  dark:focus:ring-gray-700  dark:text-gray-400 dark:hover:text-textcolor hover:border-2 hover:border-background focus:bg-transparent focus:border-background focus:text-textcolor" onClick={() => filterItem('Design')}>Design</button>
-              <button type="button" class="py-2.5 px-5 me-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white dark:bg-gray-800 rounded-full border-2  hover:bg-transparent  focus:z-10  dark:focus:ring-gray-700  dark:text-gray-400 dark:hover:text-textcolor hover:border-2 hover:border-background focus:bg-transparent focus:border-background focus:text-textcolor" onClick={() => filterItem('Design')}>Design</button>
-              <button type="button" class="py-2.5 px-5 me-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white dark:bg-gray-800 rounded-full border-2  hover:bg-transparent  focus:z-10  dark:focus:ring-gray-700  dark:text-gray-400 dark:hover:text-textcolor hover:border-2 hover:border-background focus:bg-transparent focus:border-background focus:text-textcolor" onClick={() => filterItem('Design')}>Design</button>
-              <button type="button" class="py-2.5 px-5 me-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white dark:bg-gray-800 rounded-full border-2  hover:bg-transparent  focus:z-10  dark:focus:ring-gray-700  dark:text-gray-400 dark:hover:text-textcolor hover:border-2 hover:border-background focus:bg-transparent focus:border-background focus:text-textcolor" onClick={() => filterItem('Design')}>Design</button>
-              <button type="button" class="py-2.5 px-5 me-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white dark:bg-gray-800 rounded-full border-2  hover:bg-transparent  focus:z-10  dark:focus:ring-gray-700  dark:text-gray-400 dark:hover:text-textcolor hover:border-2 hover:border-background focus:bg-transparent focus:border-background focus:text-textcolor" onClick={() => filterItem('Design')}>Design</button>
+              <button type="button" class="py-2.5 px-5 me-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-slate-300  rounded-full border-2  hover:bg-transparent  focus:z-10     hover:border-background focus:bg-transparent focus:border-background focus:text-textcolor" onClick={() => filterItem('Design')}>Design</button>
+              <button type="button" class="py-2.5 px-5 me-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-slate-300  rounded-full border-2  hover:bg-transparent  focus:z-10    hover:border-background focus:bg-transparent focus:border-background focus:text-textcolor" onClick={() => filterItem('Design')}>Design</button>
+              <button type="button" class="py-2.5 px-5 me-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-slate-300  rounded-full border-2  hover:bg-transparent  focus:z-10      hover:border-background focus:bg-transparent focus:border-background focus:text-textcolor" onClick={() => filterItem('Design')}>Design</button>
+              <button type="button" class="py-2.5 px-5 me-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-slate-300 rounded-full border-2  hover:bg-transparent  focus:z-10      hover:border-background focus:bg-transparent focus:border-background focus:text-textcolor" onClick={() => filterItem('Design')}>Design</button>
+              <button type="button" class="py-2.5 px-5 me-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-slate-300 rounded-full border-2  hover:bg-transparent  focus:z-10     hover:border-background focus:bg-transparent focus:border-background focus:text-textcolor" onClick={() => filterItem('Design')}>Design</button>
                 
-              </div>
-              <div className='absolute right-[120px] top-[128.6rem] text-4xl text-text-gray-900'>
-              <FaAngleRight className='cursor-pointer' onClick={sliderRight} />
-              </div>
+        </div>
+       
+       <div className='  items-center mt-2 '>
+              <FaAngleRight onClick={sliderRight} className='text-4xl bg-slate-400 w-16 rounded-full p-1 mr-11 text-background top-0' />
+        {/* <FaAngleRight onClick={sliderLeft} className=' text-2xl' /> */}
+       </div>
+
+       </div>
+        
+        
             
              
-                <div className=" flex flex-wrap   gap-8 justify-center items-center   mt-24 ">
+        <div className=" flex flex-wrap   gap-8    mt-20 ">
              
                     
                      {apiData.map((ele) =>{
@@ -89,16 +93,16 @@ function Course () {
 
                    return (
 
-                   <div className='bg-gray-700  transform transition duration-300  hover:scale-105 cursor-pointer rounded-lg shadow-xl h-[380px] w-[400px]   justify-center  items-center overflow-hidden'>
+                   <div className='rounded-2xl block   hover:bg-slate-400 hover:no-underline  active:rounded  transform transition duration-150 border border-outline-variant text-center  hover:scale-105 cursor-pointer overflow-hidden  h-[420px] w-[400px]  hover:text-white '>
                           <a href="#" >
-                                <img className='h-[180px] rounded-t-lg w-full    items-center justify-center mx-auto' src={img} alt="" />
+                                <img className=' rounded-3xl pt-3  p-4 mx-auto' src={img} alt="" />
                          </a>
                      
-                       <div className='mt-4 text-gray-400 ml-5  font-semibold text-lg '>
+                       <div className='mt-4 text-gray-950   font-semibold text-lg '>
                          <h1>{title}</h1>
                        </div>
                       
-                  <div className='mt-5 justify-around relative  flex text-gray-300'>
+                   <div className='mt-5 justify-around relative  flex text-textcolor'>
                        <span>{name}</span>
                        <span className='absolute right-[190px] top-[4px]'>{timeicon}</span>
                        <span className='mr-[-20px]'>{time}</span>
@@ -106,7 +110,7 @@ function Course () {
                        <span>{views}</span>
                     </div>
 
-                       <div className='mt-8 justify-start gap-5 ml-6 font-semibold text-2xl text-background flex'>
+                       <div className='mt-8 justify-start gap-5 ml-6 font-semibold text-2xl text-blue-900 flex'>
                           <h1>{price}</h1>
                           <h1 className='line-through text-black font-semibold text-lg'>{maxprice}</h1>
                        </div>
@@ -114,7 +118,7 @@ function Course () {
                         
                   </div>
             )})}
-                   </div>
+        </div>
                
                 
                   

@@ -1,43 +1,45 @@
+
+
 /** @type {import('tailwindcss').Config} */
-export const content = [
-  "./index.html",
-  "./src/**/*.{js,ts,jsx,tsx}",
-  "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
-  "./src/components/Cards/**/*.{js,ts,jsx,tsx,mdx}",
-  "./node_modules/flowbite/components/Cards/**/*.js"
+export default {
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+    "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/components/Cards/**/*.{js,ts,jsx,tsx,mdx}",
+    "./node_modules/flowbite/components/Cards/**/*.js"
+  ],
+  theme: {
+    screens: {
+      'sm': '640px',
+      // => @media (min-width: 640px) { ... }
 
-];
-export const theme = {
-  screens: {
-    xs: "350px",
-    sm: "640px",
-    md: "768px",
-    lg: "1024px",
-    xl: "1300px",
-  },
-  extend: {
-    colors: {
-      primary: "#0BA085",
-      background: "#0BA085",
-      textcolor:"#000000",
-      ternary: {
-      DEFAULT: "#fff",
-      hover: "#1c3656",
-      },
-      accent: {
-        DEFAULT: "#fff",
-      
-      },
-      body: "",
-    },
-    fontFamily:{
-      Poppins:["Poppins"],
-      title:"38px"
-    },
-    textisze:{
-      title:"38px"
+      'md': '768px',
+      // => @media (min-width: 768px) { ... }
 
-    }
+      'lg': '1024px',
+      // => @media (min-width: 1024px) { ... }
+
+      'xl': '1280px',
+      // => @media (min-width: 1280px) { ... }
+
+      '2xl': '1500px',
+      // => @media (min-width: 1536px) { ... }
+    },
+    extend: {
+      screens: {
+        'lg': {'min':'1024px','max':'1800px'},
+        // => @media (min-width: 992px) { ... }
+      },
+
+
+      colors:{
+        background:"#0BA085",
+        textcolor:"#000000"
+      }
+    },
   },
-};
-export const plugins = [require('tailwind-scrollbar-hide')];
+  plugins: [
+    require('tailwind-scrollbar-hide')
+  ],
+}
