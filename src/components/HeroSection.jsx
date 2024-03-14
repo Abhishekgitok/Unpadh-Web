@@ -7,9 +7,9 @@ function HeroSection() {
     <>
       <section className="   lg:h-[82vh]    bg-background mx-auto items-center justify-center   ">
         <div className="  justify-center  items-center  ">
-          <div className=" w-full  flex  justify-between  ">
+          <div className="   flex  justify-between  ">
             {/*************************************Left Side Section Start******************************************/}
-            <div className="ml-24 mt-20  w-[42%]">
+            <div className="ml-24 mt-20  w-[45%]">
               <h1 className="text-[45px]  font-semibold  text-white ">
                 Dis cover the best course <br />
                 online for the best learning
