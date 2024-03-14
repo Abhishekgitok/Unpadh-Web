@@ -3,7 +3,7 @@ import React from 'react';
 
 import Nav from './components/Navbar/Menubar';
 import HeroSection from './components/HeroSection';
-// import Heading from './components/Heading';
+import Heading from './components/Heading';
 // import Program from './components/Program';
 // import Course from './components/Course';
 // import Chooseprogram from './components/Chooseprogram';
@@ -18,7 +18,7 @@ function App() {
       <main className=" bg-white mx-auto overflow-hidden   ">
        <Nav/>
       <HeroSection/>
-      {/* <Heading/> */}
+      <Heading/>
       {/* <Program/> */}
       {/* <Course/> */}
       {/* <Chooseprogram/> */}
