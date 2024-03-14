@@ -5,9 +5,9 @@ import Nav from './components/Navbar/Menubar';
 import HeroSection from './components/HeroSection';
 import Heading from './components/Heading';
 import Program from './components/Program';
-// import Course from './components/Course';
-// import Chooseprogram from './components/Chooseprogram';
-// import Student from './components/Student';
+import Course from './components/Course';
+import Chooseprogram from './components/Chooseprogram';
+import Student from './components/Student';
 
 
 
@@ -20,9 +20,9 @@ function App() {
       <HeroSection/>
       <Heading/>
       <Program/>
-      {/* <Course/> */}
-      {/* <Chooseprogram/> */}
-      {/* <Student/> */}
+      <Course/>
+      <Chooseprogram/>
+      <Student/>
 
 
      
