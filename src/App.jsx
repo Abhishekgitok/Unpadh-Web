@@ -4,7 +4,7 @@ import React from 'react';
 import Nav from './components/Navbar/Menubar';
 import HeroSection from './components/HeroSection';
 import Heading from './components/Heading';
-// import Program from './components/Program';
+import Program from './components/Program';
 // import Course from './components/Course';
 // import Chooseprogram from './components/Chooseprogram';
 // import Student from './components/Student';
@@ -19,7 +19,7 @@ function App() {
        <Nav/>
       <HeroSection/>
       <Heading/>
-      {/* <Program/> */}
+      <Program/>
       {/* <Course/> */}
       {/* <Chooseprogram/> */}
       {/* <Student/> */}
