@@ -5,11 +5,11 @@ function HeroSection() {
   const cols = 4;
   return (
     <>
-      <section className="   lg:h-[82vh]    bg-background mx-auto items-center justify-center   ">
-        <div className="  justify-center  items-center  ">
-          <div className="   flex  justify-between  ">
+      <section className=" w-full  lg:h-[82vh]    bg-background mx-auto items-center justify-center   ">
+        <div className=" w-full justify-center  items-center  ">
+          <div className="   flex mx-auto  justify-around  ">
             {/*************************************Left Side Section Start******************************************/}
-            <div className="ml-24 mt-20 w-[42%] ">
+            <div className=" mt-20  ">
               <h1 className="text-[45px]  font-semibold  text-white ">
                 Dis cover the best course <br />
                 online for the best learning

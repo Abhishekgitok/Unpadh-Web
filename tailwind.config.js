@@ -28,7 +28,7 @@ export default {
     },
     extend: {
       screens: {
-        'lg': {'min':'1024px','max':'1800px'},
+        'lg': {'min':'1024px','max':'1500px'},
         // => @media (min-width: 992px) { ... }
       },
 
