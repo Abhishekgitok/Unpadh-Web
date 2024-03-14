@@ -7,17 +7,17 @@ function HeroSection() {
     <>
       <section className=" w-full h-[85vh]  overflow-hidden   bg-background mx-auto items-center justify-center   ">
         <div className=" w-full justify-center  items-center  ">
-          <div className="   flex mx-auto  justify-around  ">
+          <div className="   flex mx-auto justify-evenly     ">
             {/*************************************Left Side Section Start******************************************/}
-            <div className=" mt-20  ">
+            <div className=" pt-20  ">
               <h1 className="text-[45px]  font-semibold  text-white ">
                 Dis cover the best course <br />
                 online for the best learning
               </h1>
-              <p className=" mt-8 text-[15px] leading-8 tracking-wide font-normal  text-white">
+              <p className=" mt-8 text-[15px] leading-8 tracking-normal font-normal  text-white">
                 Relatively permanent change in behavior or potential behavior as
                 a result of the <br /> or practice occurring learning is the
-                result of the interaction between stimulus <br /> a person has
+                result of the interaction between stimulus  a <br /> person has
                 learned something if he can show a change in behavior.
               </p>
 
@@ -69,19 +69,24 @@ function HeroSection() {
             {/************************************* Left Side Section End ******************************************/}
 
             {/************************************* Right Side Section Start******************************************/}
-            <div class="relative  justify-center items-center mt-16 ">
-              <div class="h-[500px] w-[500px] border-2 border-white rounded-full"></div>
-              <div class="absolute inset-0 flex justify-center items-center">
+            <div class="relative    justify-center items-center pt-[74px] ">
+              {/* <div class="h-[500px] w-[500px] border-2 border-white rounded-full"></div> */}
+              {/* <div class="absolute inset-0 flex justify-center items-center">
                 <div class="h-[400px] w-[400px] bg-teal-400 rounded-full"></div>
 
-             </div>
+             </div> */}
+                <img className=" h-[100%] " src="student.png" alt="" />
+
 
             </div>
 
+
+
+
              {/* image  */}
-             <div className="absolute right-5 top-[138px] !important">
-                {/* <img className="z-40 h-[32rem]" src="student.png" alt="" /> */}
-                </div>
+             {/* <div className="absolute right-5 top-[138px] !important">
+                <img className="z-40 h-[32rem]" src="student.png" alt="" />
+                </div> */}
             
           </div>
            {/* <DotGrid gridSize={4} />  */}
