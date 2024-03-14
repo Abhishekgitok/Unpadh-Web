@@ -9,7 +9,7 @@ function HeroSection() {
         <div className="  justify-center  items-center  ">
           <div className="   flex  justify-between  ">
             {/*************************************Left Side Section Start******************************************/}
-            <div className="ml-24 mt-20 w-[45%] ">
+            <div className="ml-24 mt-20 w-[42%] ">
               <h1 className="text-[45px]  font-semibold  text-white ">
                 Dis cover the best course <br />
                 online for the best learning
@@ -69,23 +69,23 @@ function HeroSection() {
             {/************************************* Left Side Section End ******************************************/}
 
             {/************************************* Right Side Section Start******************************************/}
-            {/* <div class="relative  justify-center items-center mt-16 mr-32">
+            <div class="relative  justify-center items-center mt-16 mr-32">
               <div class="h-[500px] w-[500px] border-2 border-white rounded-full"></div>
               <div class="absolute inset-0 flex justify-center items-center">
                 <div class="h-[400px] w-[400px] bg-teal-400 rounded-full"></div>
 
              </div>
 
-            </div> */}
+            </div>
 
              {/* image  */}
-             {/* <div className="absolute right-0 top-[133px]">
+             <div className="absolute right-0 top-[133px]">
                 <img className="z-40" src="student.png" alt="" />
-                </div> */}
+                </div>
             
           </div>
            {/* <DotGrid gridSize={4} />  */}
-          {/* <div className="absolute flex  justify-end right-10 top-[160px]">
+          <div className="absolute flex  justify-end right-10 top-[160px]">
              
               <div className="grid grid-cols-4 gap-4">
                 {Array.from({ length: rows * cols }).map((_, index) => (
@@ -95,7 +95,7 @@ function HeroSection() {
                   ></div>
                 ))}
               </div>
-            </div> */}
+            </div>
         </div>
       </section>
     </>
