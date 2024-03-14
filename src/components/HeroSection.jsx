@@ -80,7 +80,7 @@ function HeroSection() {
 
              {/* image  */}
              <div className="absolute right-0 top-[133px]">
-                <img className="z-40" src="student.png" alt="" />
+                <img className="z-40 h-[32rem]" src="student.png" alt="" />
                 </div>
             
           </div>
