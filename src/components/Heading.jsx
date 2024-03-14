@@ -7,7 +7,7 @@ function Header(props) {
 
   return (
     <>
-      <section className=" mt-20  w-full mx-auto flex  justify-around ">
+      <section className=" mt-16  w-full mx-auto flex  justify-around ">
         {/* Left Side  */}
         <div className="relative">
           <div className="font-Poppins font-semibold text-[40px]">

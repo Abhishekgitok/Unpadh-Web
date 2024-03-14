@@ -5,7 +5,7 @@ function HeroSection() {
   const cols = 4;
   return (
     <>
-      <section className=" w-full  h-[83vh] overflow-hidden   bg-background mx-auto items-center justify-center   ">
+      <section className=" w-full h-[85vh]  overflow-hidden   bg-background mx-auto items-center justify-center   ">
         <div className=" w-full justify-center  items-center  ">
           <div className="   flex mx-auto  justify-around  ">
             {/*************************************Left Side Section Start******************************************/}
@@ -22,7 +22,7 @@ function HeroSection() {
               </p>
 
               {/* Btn */}
-              <div className="max-w-[550px] mt-8">
+              <div className="w-[550px] mt-8">
                 <form class=" mx-auto">
                   <label
                     for="default-search"
@@ -79,8 +79,8 @@ function HeroSection() {
             </div>
 
              {/* image  */}
-             <div className="absolute right-5 top-[180px] !important">
-                <img className="z-40 h-[32rem]" src="student.png" alt="" />
+             <div className="absolute right-5 top-[138px] !important">
+                {/* <img className="z-40 h-[32rem]" src="student.png" alt="" /> */}
                 </div>
             
           </div>
