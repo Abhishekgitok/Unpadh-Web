@@ -1,7 +1,7 @@
 // App.js
 import React from 'react';
 
-// import Nav from './components/Navbar/Menubar';
+import Nav from './components/Navbar/Menubar';
 import HeroSection from './components/HeroSection';
 import Heading from './components/Heading';
 import Program from './components/Program';
@@ -16,7 +16,7 @@ function App() {
   return (
     
       <main className=" bg-white mx-auto overflow-hidden   ">
-       {/* <Nav/> */}
+       <Nav/>
       <HeroSection/>
       <Heading/>
       <Program/>
