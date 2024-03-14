@@ -9,15 +9,15 @@ function HeroSection() {
         <div className=" w-full justify-center  items-center  ">
           <div className="   flex mx-auto justify-evenly     ">
             {/*************************************Left Side Section Start******************************************/}
-            <div className=" pt-20  ">
-              <h1 className="text-[45px]  font-semibold  text-white ">
-                Dis cover the best course <br />
-                online for the best learning
+            <div className=" pt-20 ml-16  ">
+              <h1 className="text-[46px]  font-semibold  text-white ">
+                Dis cover the <span className="text-teal-950 uppercase font-bold">best course</span> <br />
+                online for the <span className="text-teal-950 uppercase font-bold" >best learning</span>
               </h1>
               <p className=" mt-8 text-[15px] leading-8 tracking-normal font-normal  text-white">
                 Relatively permanent change in behavior or potential behavior as
                 a result of the <br /> or practice occurring learning is the
-                result of the interaction between stimulus  a <br /> person has
+                result of the interaction between stimulus a <br /> person has
                 learned something if he can show a change in behavior.
               </p>
 
@@ -69,38 +69,38 @@ function HeroSection() {
             {/************************************* Left Side Section End ******************************************/}
 
             {/************************************* Right Side Section Start******************************************/}
-            <div class="relative    justify-center items-center pt-[74px] ">
-              {/* <div class="h-[500px] w-[500px] border-2 border-white rounded-full"></div> */}
-              {/* <div class="absolute inset-0 flex justify-center items-center">
-                <div class="h-[400px] w-[400px] bg-teal-400 rounded-full"></div>
+            <div class="relative bg-transparent  border- rounded-full justify-center items-center mt-[40px] ">
+              {/* image  */}
+              <img
+                className=" relative   z-20  mt-[1.7rem] "
+                src="student.png"
+                alt=""
+              />
 
-             </div> */}
-                <img className=" h-[100%] " src="student.png" alt="" />
+              {/* image background  */}
 
+              <div class=" absolute z-10 inset-0 flex justify-center items-center">
+                <div class="h-[450px] w-[450px]  bg-teal-400 rounded-full"></div>
+              </div>
 
-            </div>
-
-
-
-
-             {/* image  */}
-             {/* <div className="absolute right-5 top-[138px] !important">
-                <img className="z-40 h-[32rem]" src="student.png" alt="" />
-                </div> */}
-            
-          </div>
-           {/* <DotGrid gridSize={4} />  */}
-          <div className="absolute flex  justify-end right-10 top-[160px]">
-             
-              <div className="grid grid-cols-4 gap-4">
-                {Array.from({ length: rows * cols }).map((_, index) => (
-                  <div
-                    key={index}
-                    className="w-2 h-2 bg-white rounded-full"
-                  ></div>
-                ))}
+              <div class=" absolute  inset-0 flex justify-center items-center">
+                <div class="h-[550px] w-[550px]  bg-teal-800 border-2 rounded-full"></div>
               </div>
             </div>
+
+            {/* image  */}
+          </div>
+          {/* <DotGrid gridSize={4} />  */}
+          <div className="absolute flex  justify-end right-10 top-[160px]">
+            <div className="grid grid-cols-4 gap-4">
+              {Array.from({ length: rows * cols }).map((_, index) => (
+                <div
+                  key={index}
+                  className="w-2 h-2 bg-white rounded-full"
+                ></div>
+              ))}
+            </div>
+          </div>
         </div>
       </section>
     </>
