@@ -12,7 +12,7 @@ function Header(props) {
         <div className="relative">
           <div className="font-Poppins font-semibold text-[40px]">
             <h>
-              Start Learning with <span className="text-background">URedx</span> 
+              Start Learning with <span className="text-background">Unpadh</span> 
               <br /> and achieve your goals
             </h>
           </div>

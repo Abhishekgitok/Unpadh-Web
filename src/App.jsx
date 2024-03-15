@@ -8,7 +8,7 @@ import Program from './components/OurProgram/Program';
 import Course from './components/Course/Course';
 import Chooseprogram from './components/ChooseProgram/Chooseprogram';
 import StudentRevies from './components/Testimonials/StudentRevies';
-// import Card from './components/Course/card';
+import Card from './components/Course/card';
 
 
 
@@ -24,7 +24,7 @@ function App() {
       <Course/>
       <Chooseprogram/>
      <StudentRevies/>
-     {/* <Card/> */}
+     <Card/>
 
 
      

@@ -7,7 +7,7 @@ function HeroSection() {
     <>
       <section className=" w-full h-[85vh]  overflow-hidden   bg-background mx-auto items-center justify-center   ">
         <div className=" w-full justify-center  items-center  ">
-          <div className="   flex mx-auto justify-evenly     ">
+          <div className="   flex  flex-wrap mx-auto justify-evenly     ">
             {/*************************************Left Side Section Start******************************************/}
             <div className=" p-20   ">
               <h1 className="text-[40px] capitalize  font-semibold  text-white ">
@@ -72,7 +72,7 @@ function HeroSection() {
             <div class="relative bg-transparent  border- rounded-full justify-center items-center mt-[40px] ">
               {/* image  */}
               <img
-                className=" relative h-[32rem]  z-20   mt-[4.2rem] "
+                className=" relative   z-20   mt-[1.7rem] "
                 src="student.png"
                 alt=""
               />
@@ -80,7 +80,7 @@ function HeroSection() {
               {/* image background  */}
 
               <div class=" absolute z-10 inset-0 flex justify-center items-center pb-5 pl-8">
-                <div class="h-[420px] w-[420px]  bg-teal-500 rounded-full"></div>
+                <div class="h-[450px] w-[450px]  bg-teal-500 rounded-full"></div>
               </div>
 
               <div class=" absolute  inset-0 flex justify-center items-center pb-5 pl-8">
