@@ -1,8 +1,9 @@
 import React from "react";
-import StudentCard from "./Cards/Studentcard";
+import StudentReviesFile from "./StudentReviesFile";
 
 
-function Student() {
+
+function StudentRevies() {
    
   
 
@@ -23,7 +24,7 @@ function Student() {
 
         {/*********************** * left Right side Section **************************** */}
          <div className=" shadow-xl">
-         <StudentCard/>
+         <StudentReviesFile/>
          </div>
   
 
@@ -33,4 +34,4 @@ function Student() {
   );
 }
 
-export default Student;
+export default StudentRevies;

@@ -9,12 +9,12 @@ function HeroSection() {
         <div className=" w-full justify-center  items-center  ">
           <div className="   flex mx-auto justify-evenly     ">
             {/*************************************Left Side Section Start******************************************/}
-            <div className=" pt-20 ml-16  ">
-              <h1 className="text-[46px]  font-semibold  text-white ">
-                Dis cover the <span className="text-teal-950 uppercase font-bold">best course</span> <br />
-                online for the <span className="text-teal-950 uppercase font-bold" >best learning</span>
+            <div className=" p-20   ">
+              <h1 className="text-[40px] capitalize  font-semibold  text-white ">
+                Dis cover the <span className="text-teal-900 capitalize  font-bold">best course</span> <br />
+                online for the <span className=" text-teal-900 capitalize font-bold" >best learning</span>
               </h1>
-              <p className=" mt-8 text-[15px] leading-8 tracking-normal font-normal  text-white">
+              <p className=" mt-8 text-[14px] leading-8 tracking-wide font-normal  text-white">
                 Relatively permanent change in behavior or potential behavior as
                 a result of the <br /> or practice occurring learning is the
                 result of the interaction between stimulus a <br /> person has
@@ -22,7 +22,7 @@ function HeroSection() {
               </p>
 
               {/* Btn */}
-              <div className="w-[550px] mt-8">
+              <div className="w-[550px] mt-10">
                 <form class=" mx-auto">
                   <label
                     for="default-search"
@@ -49,7 +49,7 @@ function HeroSection() {
                     <input
                       type="search"
                       id="default-search"
-                      class="block w-full p-5 ps-10 text-sm text-gray-900 border border-gray-300 rounded-full outline-none"
+                      class="block w-full p-5 ps-10 text-sm text-gray-900 border border-gray-200 rounded-full outline-none"
                       placeholder="Search your course here..."
                       required
                     />
@@ -72,23 +72,23 @@ function HeroSection() {
             <div class="relative bg-transparent  border- rounded-full justify-center items-center mt-[40px] ">
               {/* image  */}
               <img
-                className=" relative   z-20  mt-[1.7rem] "
+                className=" relative h-[32rem]  z-20   mt-[4.2rem] "
                 src="student.png"
                 alt=""
               />
 
               {/* image background  */}
 
-              <div class=" absolute z-10 inset-0 flex justify-center items-center">
-                <div class="h-[450px] w-[450px]  bg-teal-400 rounded-full"></div>
+              <div class=" absolute z-10 inset-0 flex justify-center items-center pb-5 pl-8">
+                <div class="h-[420px] w-[420px]  bg-teal-500 rounded-full"></div>
               </div>
 
-              <div class=" absolute  inset-0 flex justify-center items-center">
-                <div class="h-[550px] w-[550px]  bg-teal-800 border-2 rounded-full"></div>
+              <div class=" absolute  inset-0 flex justify-center items-center pb-5 pl-8">
+                <div class="h-[550px] w-[550px]  bg-teal-900 border-2 rounded-full "></div>
               </div>
             </div>
 
-            {/* image  */}
+           
           </div>
           {/* <DotGrid gridSize={4} />  */}
           <div className="absolute flex  justify-end right-10 top-[160px]">

@@ -1,6 +1,6 @@
 
 import React from "react";
-import ProgramCard from "./Cards/Pogramcard";
+import ProgramCard from "./Pogramcard";
 
 
 
@@ -18,10 +18,10 @@ function Program () {
         <div className="text-center">
          <div className="font-Poppins font-semibold text-[40px]">
             <h>
-               Popular Program
+               Our Popular Program
             </h>
            </div>
-           <div className=" font-Poppins text-[20px] font-normal mt-8">
+           <div className=" font-Poppins text-[20px] font-normal mt-3">
             <h1>
                  Get the world class & verified program (UGC Approved)
 
@@ -30,7 +30,7 @@ function Program () {
         </div>
         
         {/********************Slider Card*************************/}
-        <div className="mt-24   ">
+        <div className="mt-16   ">
             <ProgramCard/>
            
         </div>

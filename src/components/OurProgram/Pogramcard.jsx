@@ -7,7 +7,7 @@ import "slick-carousel/slick/slick-theme.css";
 import'./programcard.css';
 
 
-function ProgramCard() {
+function ProgramCard () {
     const settings = {
         dots: true,
         infinite: true,
@@ -61,7 +61,7 @@ function ProgramCard() {
         <div className=" ">
             <Slider {...settings}>
                 {card.map((data, index) => (
-                    <div key={index} className=" h-[250px] rounded overflow-hidden  bg-slate-50  shadow-slate-400 border-2 hover: transform transition duration-500 hover:scale-90 hover:shadow-md  justify-center items-start flex cursor-pointer" >
+                    <div key={index} className=" h-[250px] rounded-lg overflow-hidden  bg-slate-50  shadow-slate-400 border-2 border-gray-300  transform transition duration-500 hover:scale-90   justify-center items-start flex cursor-pointer" >
                         <div className=" ">
                             <div className=" h-20 w-20  mt-8 items-center mx-auto justify-center">
                                 <img src={data.img} alt="icon" />

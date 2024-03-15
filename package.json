@@ -7,15 +7,18 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "start": "npx json-server --watch -p 8000 db.json"
   },
   "dependencies": {
     "@glidejs/glide": "^3.6.0",
     "@headlessui/react": "^1.7.18",
     "@heroicons/react": "^2.1.1",
     "@material-tailwind/react": "^2.1.9",
+    "axios": "^1.6.7",
     "countup": "^1.8.2",
     "flowbite-react": "^0.7.2",
+    "json-server": "^1.0.0-alpha.23",
     "react": "^18.2.0",
     "react-countup": "^6.5.0",
     "react-dom": "^18.2.0",

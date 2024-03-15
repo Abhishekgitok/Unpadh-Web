@@ -38,7 +38,7 @@ function Nav (){
         <div className="relative rounded-full flex xs:ml-12 mt-4 sm:gap-5 sm:ml-10 sm:mt-4 lg:gap-4 lg:ml-0 lg:mt-0 box-border">
               
               <button
-               className="relative z-[2] rounded-full  border-solid border-2 border-primary px-7 p-2 text-center justify-center   text-sm font-medium capitalize  text-textcolor hover:transition duration-200 ease-out  hover:border-zinc-50   hover:text-white  focus:outline-none    dark:hover:bg-blue-950 "
+               className="relative z-[2] rounded-full  border-solid border-2 border-background px-7 p-2 text-center justify-center   text-sm font-medium capitalize  text-textcolor hover:transition duration-200 ease-out  hover:border-zinc-50   hover:text-white  focus:outline-none    dark:hover:bg-blue-950 "
                type="button"
                id="button-addon3"
                data-twe-ripple-init
@@ -46,7 +46,7 @@ function Nav (){
                Log in
               </button>
               <button
-               className="relative z-[2] rounded-full  hover:border-solid border-2 border-primary px-7 text-center justify-center   text-sm font-medium capitalize  text-white hover:transition duration-200 ease-out  bg-background hover:bg-transparent   hover:text-textcolor  focus:outline-none  "
+               className="relative z-[2] rounded-full  hover:border-background border-2 border-primary px-7 text-center justify-center   text-sm font-medium capitalize  text-white hover:transition duration-200 ease-out  bg-background hover:bg-transparent   hover:text-textcolor  focus:outline-none  "
                type="button"
                id="button-addon3"
                data-twe-ripple-init

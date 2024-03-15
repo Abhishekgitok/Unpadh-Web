@@ -1,6 +1,6 @@
 
 import React, {useState} from 'react';
-import cardData from './Api/Api';
+import cardData from './Api';
 import { FaAngleRight } from "react-icons/fa6";
 
 import Slider from "react-slick";
@@ -46,7 +46,7 @@ function Course () {
             Learn From The Best Courses 
             </h>
           </div>
-          <div className=" font-Poppins text-[20px] font-normal mt-8">
+          <div className=" font-Poppins text-[20px] font-normal mt-4">
             <h1>
             Choose from 10,000 online video courses with new additions published every month
 
@@ -58,7 +58,7 @@ function Course () {
         </div>
         {/********************Slider Card*************************/}
        <div className='flex mx-auto justify-around  items-center '>
-       <div id='slider' className='mt-5    w-[60%]  scrollbar-hide  overflow-x-scroll  whitespace-nowrap scroll-smooth'>
+       <div id='slider' className='mt-16    w-[60%]  scrollbar-hide  overflow-x-scroll  whitespace-nowrap scroll-smooth'>
               <button type="button" class="py-2.5 px-5 me-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-slate-300 rounded-full border-2  hover:bg-transparent  focus:z-10     hover:border-2 hover:border-background focus:bg-transparent focus:border-background focus:text-textcolor " onClick={() => setapiData(cardData)}>All</button>
 
               <button type="button" class="py-2.5 px-5 me-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-slate-300  rounded-full border-2  hover:bg-transparent  focus:z-10     hover:border-2 hover:border-background focus:bg-transparent focus:border-background focus:text-textcolor" onClick={() => filterItem('engineering')}>Engineering</button>
@@ -75,8 +75,8 @@ function Course () {
                 
         </div>
        
-       <div className='  items-center mt-2 '>
-              <FaAngleRight onClick={sliderRight} className='text-4xl bg-slate-400 w-16 rounded-full p-1 mr-11 text-background top-0' />
+       <div className='  items-center mt-16 '>
+              <FaAngleRight onClick={sliderRight} className='text-4xl     bg-slate-300 w-16 rounded-full p-1 mr-16 text-background top-2' />
         {/* <FaAngleRight onClick={sliderLeft} className=' text-2xl' /> */}
        </div>
 
@@ -85,7 +85,7 @@ function Course () {
         
             
              
-        <div className=" flex flex-wrap   gap-8    mt-20 ">
+        <div className=" flex flex-wrap   gap-8    mt-10 ">
              
                     
                      {apiData.map((ele) =>{
@@ -93,21 +93,21 @@ function Course () {
 
                    return (
 
-                   <div className='rounded-2xl block   hover:bg-slate-400 hover:no-underline  active:rounded  transform transition duration-150 border border-outline-variant text-center  hover:scale-105 cursor-pointer overflow-hidden  h-[420px] w-[400px]  hover:text-white '>
+                   <div className='rounded-lg    hover:bg-slate-200 hover:no-underline  active:rounded  transform transition duration-150 border border-outline-variant item-center justify-center hover:scale-105 cursor-pointer overflow-hidden  h-[350px] w-[350px] p-3 border-gray-400  hover:text-white '>
                           <a href="#" >
-                                <img className=' rounded-3xl pt-3  p-4 mx-auto' src={img} alt="" />
+                                <img className=' h-[150px] w-full  rounded-lg ' src={img} alt="" />
                          </a>
                      
-                       <div className='mt-4 text-gray-950   font-semibold text-lg '>
+                       <div className='p-2 text-black   font-semibold text- '>
                          <h1>{title}</h1>
                        </div>
                       
-                   <div className='mt-5 justify-around relative  flex text-textcolor'>
+                   <div className='p-2 justify-between relative  flex text-textcolor'>
                        <span>{name}</span>
-                       <span className='absolute right-[190px] top-[4px]'>{timeicon}</span>
-                       <span className='mr-[-20px]'>{time}</span>
-                       <span className='absolute right-24 top-[5px]'>{viewicon}</span>
-                       <span>{views}</span>
+                       <span className='absolute right-[75px] top-[12px]'>{timeicon}</span>
+                       <span>{time}</span>
+                       {/* <span className='absolute right-24 top-[5px]'>{viewicon}</span> */}
+                       {/* <span>{views}</span> */}
                     </div>
 
                        <div className='mt-8 justify-start gap-5 ml-6 font-semibold text-2xl text-blue-900 flex'>

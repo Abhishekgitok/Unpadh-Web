@@ -3,7 +3,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-function StudentCard() {
+function StudentReviesFile () {
   const settings = {
     dots: false,
     infinite: true,
@@ -104,4 +104,4 @@ function StudentCard() {
   );
 }
 
-export default StudentCard;
+export default StudentReviesFile;

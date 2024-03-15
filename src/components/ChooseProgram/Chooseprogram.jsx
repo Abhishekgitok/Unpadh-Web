@@ -1,5 +1,5 @@
 import React from 'react'
-import ChooseCard from './Cards/Choosecard'
+import ChooseCard from './Choosecard'
 
 function Chooseprogram  (){
   return (

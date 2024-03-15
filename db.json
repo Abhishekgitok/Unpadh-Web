@@ -1,0 +1,41 @@
+{
+  "course": [
+    {
+      "id": "1",
+      "category": "science",
+      "title": "a title",
+      "name": "Saraubh kumar",
+      "time": "4h 45m",
+      "dicountPrice": "599",
+      "actualprice": "699",
+      "img": "httpskdkjf"
+    },
+    {
+      "id": "e0a6",
+      "category": "engineering",
+      "title": "a title",
+      "name": "Saraubh kumar",
+      "time": "4h 45m",
+      "dicountPrice": "499",
+      "actualprice": "699"
+    },
+    {
+      "id": "2815",
+      "category": "engineering",
+      "title": "a title",
+      "name": "Saraubh kumar",
+      "time": "4h 45m",
+      "dicountPrice": "499",
+      "actualprice": "699"
+    },
+    {
+      "id": "3",
+      "category": "engineering",
+      "title": "a title",
+      "name": "Saraubh kumar",
+      "time": "4h 45m",
+      "dicountPrice": "499",
+      "actualprice": "699"
+    }
+  ]
+}

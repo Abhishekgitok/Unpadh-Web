@@ -3,11 +3,12 @@ import React from 'react';
 
 import Nav from './components/Navbar/Menubar';
 import HeroSection from './components/HeroSection';
-import Heading from './components/Heading';
-import Program from './components/Program';
-import Course from './components/Course';
-import Chooseprogram from './components/Chooseprogram';
-import Student from './components/Student';
+import Header from './components/Heading/Heading';
+import Program from './components/OurProgram/Program';
+import Course from './components/Course/Course';
+import Chooseprogram from './components/ChooseProgram/Chooseprogram';
+import StudentRevies from './components/Testimonials/StudentRevies';
+// import Card from './components/Course/card';
 
 
 
@@ -18,11 +19,12 @@ function App() {
       <main className=" bg-white mx-auto overflow-hidden   ">
        <Nav/>
       <HeroSection/>
-      <Heading/>
+      <Header/>
       <Program/>
       <Course/>
       <Chooseprogram/>
-      <Student/>
+     <StudentRevies/>
+     {/* <Card/> */}
 
 
      

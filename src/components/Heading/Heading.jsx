@@ -1,5 +1,5 @@
 import React from "react";
-import Headingcard from "./Cards/Headingcard";
+import HeadingCard from "./Headingcard";
 
 function Header(props) {
   const rows = 4;
@@ -12,7 +12,7 @@ function Header(props) {
         <div className="relative">
           <div className="font-Poppins font-semibold text-[40px]">
             <h>
-              Start Learning with <span className="text-background">Unpadh</span> 
+              Start Learning with <span className="text-background">URedx</span> 
               <br /> and achieve your goals
             </h>
           </div>
@@ -35,7 +35,7 @@ function Header(props) {
           </div>
           <div className="mt-[90px]">
             
-            <Headingcard />
+            <HeadingCard />
           </div>
           
         </div>
