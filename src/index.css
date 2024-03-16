@@ -7,12 +7,39 @@
 @tailwind utilities;
 
 
-
-
-html{
-  font-family: "Poppins";
+* {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
+
+html,
+body {
+ 
+  font-family: "Poppins";
+}
+@layer utilities {
+  @keyframes morph {
+    0% {border-radius: 30% 70% 69% 31% / 30% 30% 70% 70%;} 
+    100% {border-radius: 40% 80%;}
+  }
+
+  @keyframes spin {
+    to {
+      transform: rotate(30deg);
+    }
+  }
+
+  .animate-morph {
+    animation: morph 0s ease-in-out infinite alternate;
+  }
+
+  .animate-spin {
+    animation: spin 0s linear infinite;
+  }
+}
+
+
 
 
 /* Show dropdown on hover */

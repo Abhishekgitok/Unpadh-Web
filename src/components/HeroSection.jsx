@@ -5,24 +5,22 @@ function HeroSection() {
   const cols = 4;
   return (
     <>
-      <section className=" w-full h-[85vh]  overflow-hidden   bg-background mx-auto items-center justify-center   ">
-        <div className=" w-full justify-center  items-center  ">
-          <div className="   flex  flex-wrap mx-auto justify-evenly     ">
-            {/*************************************Left Side Section Start******************************************/}
-            <div className=" p-20   ">
-              <h1 className="text-[40px] capitalize  font-semibold  text-white ">
-                Dis cover the <span className="text-teal-900 capitalize  font-bold">best course</span> <br />
-                online for the <span className=" text-teal-900 capitalize font-bold" >best learning</span>
-              </h1>
-              <p className=" mt-8 text-[14px] leading-8 tracking-wide font-normal  text-white">
+      <div className=" h-[750px] md:h-[580px]  bg-background  ">
+        <section className="container flex flex-col items-center justify-between ">
+          <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-8">
+            {/* text container  */}
+            <div className="max-w-[580px] pl-16 flex flex-col items-center gap-5 text-center text-white md:items-start md:text-left ">
+              <h1 className=" text-5xl font-extrabold leading-tight tracking-normal "> Discover the best course online
+                 for the <span className="text-yellow-300">best learning</span></h1>
+              <p className="text-md">
                 Relatively permanent change in behavior or potential behavior as
-                a result of the <br /> or practice occurring learning is the
-                result of the interaction between stimulus a <br /> person has
+                a result of the or practice occurring learning is the
+                result of the interaction between stimulus  a person has
                 learned something if he can show a change in behavior.
-              </p>
+            </p>
 
-              {/* Btn */}
-              <div className="w-[550px] mt-10">
+            {/* btn  */}
+            <div className="w-[520px] ">
                 <form class=" mx-auto">
                   <label
                     for="default-search"
@@ -49,7 +47,7 @@ function HeroSection() {
                     <input
                       type="search"
                       id="default-search"
-                      class="block w-full p-5 ps-10 text-sm text-gray-900 border border-gray-200 rounded-full outline-none"
+                      class="block w-full p-5 ps-10 text-sm text-gray-900 border border-gray-300 rounded-full outline-none"
                       placeholder="Search your course here..."
                       required
                     />
@@ -64,45 +62,30 @@ function HeroSection() {
                   </div>
                 </form>
               </div>
-              {/*  Button  */}
             </div>
-            {/************************************* Left Side Section End ******************************************/}
+            {/* images container  */}
+            <div className="">
+            <div className=" mx-auto max-w-2xl  ">
+              <img src="header.png" alt="" className=" z-30  relative w-[100%]  pt-24 " />
+              
+            </div>
 
-            {/************************************* Right Side Section Start******************************************/}
-            <div class="relative bg-transparent  border- rounded-full justify-center items-center mt-[40px] ">
-              {/* image  */}
-              <img
-                className=" relative   z-20   mt-[1.7rem] "
-                src="student.png"
-                alt=""
-              />
-
-              {/* image background  */}
-
-              <div class=" absolute z-10 inset-0 flex justify-center items-center pb-5 pl-8">
-                <div class="h-[450px] w-[450px]  bg-teal-500 rounded-full"></div>
+            {/* <DotGrid gridSize={4} />  */}
+            <div className=" grid grid-cols-4 gap-4 absolute  right-16 top-28 ">
+                {Array.from({ length: rows * cols }).map(( index) => (
+                  <div
+                    key={index}
+                    className="w-2 h-2 bg-yellow-300 rounded-full "
+                  ></div>
+                ))}
               </div>
 
-              <div class=" absolute  inset-0 flex justify-center items-center pb-5 pl-8">
-                <div class="h-[550px] w-[550px]  bg-teal-900 border-2 rounded-full "></div>
-              </div>
-            </div>
+              {/* <div class="w-[400px] h-[400px] sm:top-[500px] bg-slate-900 absolute animate-morph animate-spin top-40 right-24 rounded-full opacity-50"></div> */}
 
-           
-          </div>
-          {/* <DotGrid gridSize={4} />  */}
-          <div className="absolute flex  justify-end right-10 top-[160px]">
-            <div className="grid grid-cols-4 gap-4">
-              {Array.from({ length: rows * cols }).map((_, index) => (
-                <div
-                  key={index}
-                  className="w-2 h-2 bg-white rounded-full"
-                ></div>
-              ))}
             </div>
           </div>
-        </div>
-      </section>
+        </section>
+      </div>
     </>
   );
 }

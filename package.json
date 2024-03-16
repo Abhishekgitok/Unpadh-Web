@@ -8,7 +8,7 @@
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "start": "npx json-server --watch -p 8000 db.json"
+    "start": "npx json-server --watch -p 9000 db.json"
   },
   "dependencies": {
     "@glidejs/glide": "^3.6.0",
