@@ -19,17 +19,17 @@ function Nav (){
           
           <NavLinks />
           <li>
-            <Link to="/" className="py-7 px-3 inline-block">
+            <Link to="/" className="nav-link py-7 px-3 inline-block">
               Become instructure
             </Link>
           </li>
           <li>
-            <Link to="/" className="py-7 px-3 inline-block">
+            <Link to="/" className="nav-link py-7 px-3 inline-block">
               About Us
             </Link>
           </li>
           <li>
-            <Link to="/" className="py-7 px-3 inline-block">
+            <Link to="/" className="nav-link py-7 px-3 inline-block">
               Contact Us
             </Link>
           </li>
