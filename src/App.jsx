@@ -9,7 +9,7 @@ import Course from './components/Course/Course';
 import Chooseprogram from './components/ChooseProgram/Chooseprogram';  
 import StudentRevies from './components/Testimonials/StudentRevies';
 import Subscribe from './components/SubscribePage/Subscribe';
-import Footer from './components/Footer';
+// import Footer from './components/Footer';
 
 
 // import Card from './components/Course/card';
@@ -29,7 +29,7 @@ function App() {
       <Chooseprogram/>
      <StudentRevies/>
      <Subscribe/>
-     <Footer/>
+     {/* <Footer/> */}
      
      
      {/* <Card/> */}
