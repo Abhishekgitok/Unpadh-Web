@@ -38,7 +38,7 @@ function Course () {
 
   return (
     <>
-    <section className=' h-full box-border max-w-[1280px]  mx-auto mt-[80px]'>
+    <section className=' h-full box-border   mx-auto mt-[50px]'>
         {/* Title And Subtitle  */}
         <div className='text-center'>
         <div className="font-Poppins font-semibold text-[40px]">
@@ -59,24 +59,24 @@ function Course () {
         {/********************Slider Card*************************/}
        <div className='flex mx-auto justify-around  items-center '>
        <div id='slider' className='mt-16    w-[60%]  scrollbar-hide  overflow-x-scroll  whitespace-nowrap scroll-smooth'>
-              <button type="button" class="py-2.5 px-5 me-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-slate-300 rounded-full border-2  hover:bg-transparent  focus:z-10     hover:border-2 hover:border-background focus:bg-transparent focus:border-background focus:text-textcolor " onClick={() => setapiData(cardData)}>All</button>
+              <button type="button" class="py-2.5 px-5 me-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-slate-200 rounded-full border-2 border-gray-400  hover:bg-transparent  focus:z-10     hover:border-2 hover:border-background focus:bg-transparent focus:border-background focus:text-textcolor " onClick={() => setapiData(cardData)}>All</button>
 
-              <button type="button" class="py-2.5 px-5 me-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-slate-300  rounded-full border-2  hover:bg-transparent  focus:z-10     hover:border-2 hover:border-background focus:bg-transparent focus:border-background focus:text-textcolor" onClick={() => filterItem('engineering')}>Engineering</button>
+              <button type="button" class="py-2.5 px-5 me-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-slate-200  rounded-full border-2 border-gray-400  hover:bg-transparent  focus:z-10     hover:border-2 hover:border-background focus:bg-transparent focus:border-background focus:text-textcolor" onClick={() => filterItem('engineering')}>Engineering</button>
 
-              <button type="button" class="py-2.5 px-5 me-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-slate-300 rounded-full border-2  hover:bg-transparent  focus:z-10     hover:border-2 hover:border-background focus:bg-transparent focus:border-background focus:text-textcolor" onClick={() => filterItem('science')}>Science</button>
+              <button type="button" class="py-2.5 px-5 me-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-slate-200 rounded-full border-2 border-gray-400  hover:bg-transparent  focus:z-10     hover:border-2 hover:border-background focus:bg-transparent focus:border-background focus:text-textcolor" onClick={() => filterItem('science')}>Science</button>
 
-              <button type="button" class="py-2.5 px-5 me-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-slate-300 rounded-full border-2  hover:bg-transparent  focus:z-10    r hover:border-2 hover:border-background focus:bg-transparent focus:border-background focus:text-textcolor" onClick={() => filterItem('management')}>Management</button>
+              <button type="button" class="py-2.5 px-5 me-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-slate-200 rounded-full border-2 border-gray-400  hover:bg-transparent  focus:z-10    r hover:border-2 hover:border-background focus:bg-transparent focus:border-background focus:text-textcolor" onClick={() => filterItem('management')}>Management</button>
 
-              <button type="button" class="py-2.5 px-5 me-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-slate-300  rounded-full border-2  hover:bg-transparent  focus:z-10     hover:border-background focus:bg-transparent focus:border-background focus:text-textcolor" onClick={() => filterItem('Design')}>Design</button>
-              <button type="button" class="py-2.5 px-5 me-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-slate-300  rounded-full border-2  hover:bg-transparent  focus:z-10    hover:border-background focus:bg-transparent focus:border-background focus:text-textcolor" onClick={() => filterItem('Design')}>Design</button>
-              <button type="button" class="py-2.5 px-5 me-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-slate-300  rounded-full border-2  hover:bg-transparent  focus:z-10      hover:border-background focus:bg-transparent focus:border-background focus:text-textcolor" onClick={() => filterItem('Design')}>Design</button>
-              <button type="button" class="py-2.5 px-5 me-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-slate-300 rounded-full border-2  hover:bg-transparent  focus:z-10      hover:border-background focus:bg-transparent focus:border-background focus:text-textcolor" onClick={() => filterItem('Design')}>Design</button>
-              <button type="button" class="py-2.5 px-5 me-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-slate-300 rounded-full border-2  hover:bg-transparent  focus:z-10     hover:border-background focus:bg-transparent focus:border-background focus:text-textcolor" onClick={() => filterItem('Design')}>Design</button>
+              <button type="button" class="py-2.5 px-5 me-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-slate-200  rounded-full border-2 border-gray-400  hover:bg-transparent  focus:z-10     hover:border-background focus:bg-transparent focus:border-background focus:text-textcolor" onClick={() => filterItem('Design')}>Design</button>
+              <button type="button" class="py-2.5 px-5 me-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-slate-200  rounded-full border-2 border-gray-400  hover:bg-transparent  focus:z-10    hover:border-background focus:bg-transparent focus:border-background focus:text-textcolor" onClick={() => filterItem('Design')}>Design</button>
+              <button type="button" class="py-2.5 px-5 me-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-slate-200  rounded-full border-2 border-gray-400  hover:bg-transparent  focus:z-10      hover:border-background focus:bg-transparent focus:border-background focus:text-textcolor" onClick={() => filterItem('Design')}>Design</button>
+              <button type="button" class="py-2.5 px-5 me-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-slate-200 rounded-full border-2 border-gray-400  hover:bg-transparent  focus:z-10      hover:border-background focus:bg-transparent focus:border-background focus:text-textcolor" onClick={() => filterItem('Design')}>Design</button>
+              <button type="button" class="py-2.5 px-5 me-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-slate-200 rounded-full border-2 border-gray-400  hover:bg-transparent  focus:z-10     hover:border-background focus:bg-transparent focus:border-background focus:text-textcolor" onClick={() => filterItem('Design')}>Design</button>
                 
         </div>
        
-       <div className='  items-center mt-16 '>
-              <FaAngleRight onClick={sliderRight} className='text-4xl     bg-slate-300 w-16 rounded-full p-1 mr-16 text-background top-2' />
+       <div className='  items-center mt-12 '>
+              <FaAngleRight onClick={sliderRight} className='text-sm    bg-slate-800 w-16 h-16 rounded-full p-1 mr-16 text-background ' />
         {/* <FaAngleRight onClick={sliderLeft} className=' text-2xl' /> */}
        </div>
 
@@ -85,7 +85,7 @@ function Course () {
         
             
              
-        <div className=" flex flex-wrap   gap-8    mt-10 ">
+        <div className=" grid grid-cols-2 md:grid-cols-4 mx-10 md:mx-24 gap-10 gap mt-10   ">
              
                     
                      {apiData.map((ele) =>{
@@ -93,7 +93,7 @@ function Course () {
 
                    return (
 
-                   <div className='rounded-lg    hover:bg-slate-200 hover:no-underline  active:rounded  transform transition duration-150 border border-outline-variant item-center justify-center hover:scale-105 cursor-pointer overflow-hidden  h-[350px] w-[350px] p-3 border-gray-400  hover:text-white '>
+                   <div className='rounded-lg    hover:bg-slate-200 hover:no-underline  active:rounded  transform transition duration-150 border border-outline-variant item-center justify-center hover:scale-105 cursor-pointer overflow-hidden  h-[350px] w-[300px] p-3 border-gray-400  hover:text-white '>
                           <a href="#" >
                                 <img className=' h-[150px] w-full  rounded-lg ' src={img} alt="" />
                          </a>
@@ -106,11 +106,10 @@ function Course () {
                        <span>{name}</span>
                        <span className='absolute right-[75px] top-[12px]'>{timeicon}</span>
                        <span>{time}</span>
-                       {/* <span className='absolute right-24 top-[5px]'>{viewicon}</span> */}
-                       {/* <span>{views}</span> */}
-                    </div>
+                     
+                       </div>
 
-                       <div className='mt-8 justify-start gap-5 ml-6 font-semibold text-2xl text-blue-900 flex'>
+                       <div className='p-2 justify-start gap-5  font-semibold text-2xl text-blue-900 flex'>
                           <h1>{price}</h1>
                           <h1 className='line-through text-black font-semibold text-lg'>{maxprice}</h1>
                        </div>

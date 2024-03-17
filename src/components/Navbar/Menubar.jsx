@@ -15,7 +15,7 @@ function Nav (){
             <ion-icon name={`${open ? "close" : "menu"}`}></ion-icon>
           </div>
         </div>
-        <ul className="md:flex hidden uppercase items-center  font-[Poppins]">
+        <ul className="md:flex hidden capitalize items-center  font-[Poppins]">
           
           <NavLinks />
           <li>

@@ -7,9 +7,9 @@ function HeroSection() {
     <>
       <div className=" h-[750px] md:h-[580px]  bg-background  ">
         <section className="container flex flex-col items-center justify-between ">
-          <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-10">
             {/* text container  */}
-            <div className="max-w-[580px] pl-16 flex flex-col items-center gap-5 text-center text-white md:items-start md:text-left ">
+            <div className="max-w-[580px]  flex flex-col items-center gap-5 text-center text-white md:items-start md:text-left ">
               <h1 className=" text-5xl font-extrabold leading-tight tracking-normal "> Discover the best course online
                  for the <span className="text-yellow-300">best learning</span></h1>
               <p className="text-md">
@@ -65,17 +65,17 @@ function HeroSection() {
             </div>
             {/* images container  */}
             <div className="">
-            <div className=" mx-auto max-w-2xl  ">
-              <img src="header.png" alt="" className=" z-30  relative w-[100%]  pt-24 " />
+            <div className="  max-w-[400px] md:max-w-lg pl-8 md:pt-12 ">
+              <img src="about.png" alt="" className="   relative     " />
               
             </div>
 
             {/* <DotGrid gridSize={4} />  */}
-            <div className=" grid grid-cols-4 gap-4 absolute  right-16 top-28 ">
+            <div className="  grid grid-cols-4 gap-4 absolute  right-16 top-28 ">
                 {Array.from({ length: rows * cols }).map(( index) => (
                   <div
                     key={index}
-                    className="w-2 h-2 bg-yellow-300 rounded-full "
+                    className="md:opacity-100 opacity-0  w-2 h-2  bg-yellow-300 rounded-full "
                   ></div>
                 ))}
               </div>

@@ -22,10 +22,10 @@ function StudentRevies() {
           </div>
         </div>
 
-        {/*********************** * left Right side Section **************************** */}
-         <div className=" shadow-xl">
+        {/*********************** *  bottom side Section **************************** */}
+        
          <StudentReviesFile/>
-         </div>
+        
   
 
 
