@@ -83,7 +83,7 @@ function StudentReviesFile() {
   return (
     <>
       {/*********************** * left Right side Section **************************** */}
-      <div className=" mt-16">
+      <div className=" py-24">
         <Slider {...settings}>
           {stuCard.map((data, index) => (
             <div key={index} className=" items-center justify-center mx-auto  ">

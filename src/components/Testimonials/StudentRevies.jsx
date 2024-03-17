@@ -9,7 +9,7 @@ function StudentRevies() {
 
   return (
     <>
-      <section className="  h-screen max-w-[1280px] mx-auto mt-16 items-center    ">
+      <section className="   max-w-[1280px] mx-auto mt-16 items-center    ">
         {/*********************** * Top side Section **************************** */}
 
         {/* Title And Subtitle  */}
@@ -24,7 +24,10 @@ function StudentRevies() {
 
         {/*********************** *  bottom side Section **************************** */}
         
+         <div className="">
          <StudentReviesFile/>
+
+         </div>
         
   
 
