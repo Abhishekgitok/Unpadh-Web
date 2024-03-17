@@ -1,15 +1,23 @@
-import React from "react";
+import { useEffect } from "react";
+import React  from "react";
+import AOS from "aos"
 
 function HeroSection() {
+
+  
   const rows = 4;
   const cols = 4;
   return (
     <>
-      <div className=" h-[750px] md:h-[580px]  bg-background  ">
+      <div className=" h-[750px] md:h-[580px]  bg-background dark:bg-zinc-900  ">
         <section className="container flex flex-col items-center justify-between ">
           <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-10">
             {/* text container  */}
-            <div className="max-w-[580px]  flex flex-col items-center gap-5 text-center text-white md:items-start md:text-left ">
+            <div 
+            data-aos="fade-right"
+            data-aos-duration="400"
+            data-aos-once="true"
+            className="max-w-[580px]  flex flex-col items-center gap-5 text-center text-white md:items-start md:text-left ">
               <h1 className=" text-5xl font-extrabold leading-tight tracking-normal "> Discover the best course online
                  for the <span className="text-yellow-300">best learning</span></h1>
               <p className="text-md">
@@ -65,13 +73,23 @@ function HeroSection() {
             </div>
             {/* images container  */}
             <div className="">
-            <div className="  max-w-[400px] md:max-w-xl pl-8 md:pt-12 ">
+            <div
+            data-aos="fade-left"
+            data-aos-duration="400"
+            data-aos-once="true"
+             className="  max-w-[400px] md:max-w-xl pl-8 md:pt-12 ">
               <img src="about.png" alt="" className="   relative     " />
+              {/* <div class="w-24 h-24 bg-teal-950 animate-morph animate-spin"></div> */}
+
               
             </div>
 
             {/* <DotGrid gridSize={4} />  */}
-            <div className="  grid grid-cols-4 gap-4 absolute  right-16 top-28 ">
+            <div
+            data-aos="fade-left"
+            data-aos-duration="400"
+            data-aos-once="true"
+             className="  grid grid-cols-4 gap-4 absolute  right-16 top-28 ">
                 {Array.from({ length: rows * cols }).map(( index) => (
                   <div
                     key={index}

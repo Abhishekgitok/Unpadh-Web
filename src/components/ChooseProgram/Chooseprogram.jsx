@@ -10,7 +10,7 @@ function Chooseprogram  (){
                       {/*********************** * Left side Section **************************** */}
               
               <div className='mx-auto justify-between flex'>
-              <div className='max-w-[40%]'>
+              <div data-aos="fade-right" className='max-w-[40%]'>
                <div className='text-[40px] font-semibold tracking-wide '>
                  <h1>Why to choose<br></br> our <span className='text-background'>program</span> </h1>
                 </div >
@@ -25,7 +25,7 @@ function Chooseprogram  (){
                </div>
             
             {/*********************** * Right side Section **************************** */}
-            <div className='mt-8'>
+            <div data-aos="fade-left" className='mt-8'>
                 <img src="Group .png" alt="img" />
             </div>
               </div>

@@ -9,6 +9,7 @@ export default {
     "./src/components/Cards/**/*.{js,ts,jsx,tsx,mdx}",
     "./node_modules/flowbite/components/Cards/**/*.js"
   ],
+  darkMode:"class",
   theme: {
    
     extend: {

@@ -18,15 +18,15 @@ function HeadingCard() {
         },
         {
             icon:<FaUser />,
-            title: "Ofline and online",
+            title: " online",
             subtitle: "Wide relationship and get my opportunities to work"
         },
     ];
 
     return (
-        <div className="grid grid-cols-1 gap-4 ">
+        <div className="grid grid-cols-1 gap-4 pt-5 justify-center  items-center ">
             {card.map((data, index) => (
-                <div key={index} className="max-w-xs rounded overflow-hidden  bg-white hover:shadow-xl transition duration-300 ease-in-out">
+                <div key={index} className="max-w-xs  bg-teal-50 rounded overflow-hidden  bg hover:shadow-xl transition duration-300 ease-in-out">
                     <div className="p-2 flex text-2xl  text-background">
                         {data.icon}
                         <h1 className="ml-[20px]  text-lg font-semibold text-textcolor tracking-wide">{data.title}</h1>

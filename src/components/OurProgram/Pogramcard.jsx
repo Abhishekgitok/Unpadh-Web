@@ -61,24 +61,23 @@ function ProgramCard () {
         <div className=" ">
             <Slider {...settings}>
                 {card.map((data, index) => (
-                    <div key={index} className=" h-[250px] rounded-lg overflow-hidden  bg-slate-50  shadow-slate-400 border-2 border-gray-300  transform transition duration-500 hover:scale-90   justify-center items-start flex cursor-pointer" >
+                    <div  key={index} className=" h-[250px] rounded-lg overflow-hidden  bg-slate-50 dark:bg-zinc-900  shadow-slate-400 border-2 border-gray-300 dark:border-background  transform transition duration-500 hover:scale-90   justify-center items-start flex cursor-pointer" >
                         <div className=" ">
-                            <div className=" h-20 w-20  mt-8 items-center mx-auto justify-center">
+                            <div  className=" h-20 w-20  mt-8 items-center mx-auto justify-center">
                                 <img src={data.img} alt="icon" />
                             </div>
-                            <div className=" text-center mt-8 text-blue-950  text-[20px] font-semibold">
+                            <div className=" text-center mt-8 text-blue-950 dark:text-white  text-[20px] font-semibold">
                                 <h1>{data.title}</h1>
                             </div>
-                            <div className="mt-10 flex justify-center gap-8">
-                                <div className="text-base text-textcolor    ">
+                          
+                                <div className=" my-4 border-2 mx-32 p-2 rounded-lg  font-medium flex gap-5 justify-center items-center text-textcolor dark:text-white   ">
                                     <p>
                                         {data.subtitle}
                                     </p>
-                                </div>
-                                <div className=" text-2xl">
                                     {data.icon}
+
                                 </div>
-                            </div>
+                            
                         </div>
                     </div>
                 ))}

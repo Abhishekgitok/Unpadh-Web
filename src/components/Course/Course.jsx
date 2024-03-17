@@ -38,15 +38,15 @@ function Course () {
 
   return (
     <>
-    <section className=' h-full box-border   mx-auto mt-[50px]'>
+    <section className=' h-full box-border   mx-auto mt-28'>
         {/* Title And Subtitle  */}
         <div className='text-center'>
-        <div className="font-Poppins font-semibold text-[40px]">
+        <div className="font-Poppins font-semibold text-3xl dark:text-white">
             <h> 
             Learn From The Best Courses 
             </h>
           </div>
-          <div className=" font-Poppins text-[20px] font-normal mt-4">
+          <div className=" font-Poppins text-lg font-medium mt-4 dark:text-white">
             <h1>
             Choose from 10,000 online video courses with new additions published every month
 
@@ -59,7 +59,7 @@ function Course () {
         {/********************Slider Card*************************/}
        <div className='flex mx-auto justify-around  items-center '>
        <div id='slider' className='mt-16    w-[60%]  scrollbar-hide  overflow-x-scroll  whitespace-nowrap scroll-smooth'>
-              <button type="button" class="py-2.5 px-5 me-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-slate-200 rounded-full border-2 border-gray-400  hover:bg-transparent  focus:z-10     hover:border-2 hover:border-background focus:bg-transparent focus:border-background focus:text-textcolor " onClick={() => setapiData(cardData)}>All</button>
+              <button type="button" class="py-2.5 px-5 me-2 mb-2 text-sm font-medium text-gray-900 dark:text-white  focus:outline-none bg-slate-200 dark:bg-zinc-900 rounded-full border-2 border-gray-400 dark:border-background  hover:bg-transparent  focus:z-10     hover:border-2 hover:border-background focus:bg-transparent focus:border-background dark:focus:bg-white focus:text-textcolor dark:focus:text-black  " onClick={() => setapiData(cardData)}>All</button>
 
               <button type="button" class="py-2.5 px-5 me-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-slate-200  rounded-full border-2 border-gray-400  hover:bg-transparent  focus:z-10     hover:border-2 hover:border-background focus:bg-transparent focus:border-background focus:text-textcolor" onClick={() => filterItem('engineering')}>Engineering</button>
 
@@ -93,7 +93,7 @@ function Course () {
 
                    return (
 
-                   <div className='rounded-lg    hover:bg-slate-200 hover:no-underline  active:rounded  transform transition duration-150 border border-outline-variant item-center justify-center hover:scale-105 cursor-pointer overflow-hidden  h-[350px] w-[300px] p-3 border-gray-400  hover:text-white '>
+                   <div data-aos="fade-up" className='rounded-lg    hover:bg-slate-200 hover:no-underline  active:rounded  transform transition duration-150 border border-outline-variant item-center justify-center hover:scale-105 cursor-pointer overflow-hidden  h-[350px] w-[300px] p-3 border-gray-400  hover:text-white '>
                           <a href="#" >
                                 <img className=' h-[150px] w-full  rounded-lg ' src={img} alt="" />
                          </a>

@@ -1,10 +1,34 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
+
 import { Link } from "react-router-dom";
 import NavLinks from "./Navmenu";
+import { BiSolidSun,  BiSolidMoon } from "react-icons/bi";
+
 
 
  
 function Nav (){
+
+  const [theme, setTheme] = useState(
+    localStorage.getItem("theme") ? localStorage.getItem("theme") : "light",
+  );
+
+
+  const element = document.documentElement;
+
+ 
+
+  useEffect(() => {
+    if (theme === "dark") {
+      element.classList.add("dark");
+      localStorage.setItem("theme", "dark");
+      console.log("dark theme");
+    } else {
+      element.classList.remove("dark");
+      localStorage.setItem("theme", "light");
+      console.log("light theme");
+    }
+  }, [theme]);
   const [open, setOpen] = useState(false);
   return (
     <nav className="bg-white">
@@ -33,9 +57,22 @@ function Nav (){
               Contact Us
             </Link>
           </li>
-        </ul>
-        <div className="md:block hidden ">
-        <div className="relative rounded-full flex xs:ml-12 mt-4 sm:gap-5 sm:ml-10 sm:mt-4 lg:gap-4 lg:ml-0 lg:mt-0 box-border">
+          {/* Light and dark mode switcher */}
+          {theme === "dark" ? (
+                <BiSolidSun
+                  onClick={() => setTheme("light")}
+                  className="text-2xl"
+                />
+              ) : (
+                <BiSolidMoon
+                  onClick={() => setTheme("dark")}
+                  className="text-2xl"
+                />
+              )}
+          
+         </ul>
+         <div className="md:block hidden ">
+         <div className="relative rounded-full flex xs:ml-12 mt-4 sm:gap-5 sm:ml-10 sm:mt-4 lg:gap-4 lg:ml-0 lg:mt-0 box-border">
               
               <button
                className="relative z-[2] rounded-full  border-solid border-2 border-background px-7 p-2 text-center justify-center   text-sm font-medium capitalize  text-textcolor hover:transition duration-200 ease-out  hover:border-zinc-50   hover:text-white  focus:outline-none    dark:hover:bg-blue-950 "

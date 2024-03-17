@@ -18,27 +18,26 @@ body {
  
   font-family: "Poppins";
 }
-@layer utilities {
-  @keyframes morph {
-    0% {border-radius: 30% 70% 69% 31% / 30% 30% 70% 70%;} 
-    100% {border-radius: 40% 80%;}
+/* @layer utilities {
+  @keyframes ani {
+    0% {border-radius: 40% 60% 60% 40% / 60% 30% 70% 40%;} 
+    100% {border-radius: 40% 60%;}
   }
 
   @keyframes spin {
     to {
-      transform: rotate(30deg);
+      transform: rotate(1turn);
     }
   }
 
   .animate-morph {
-    animation: morph 0s ease-in-out infinite alternate;
+    animation: ani 2s ease-in-out infinite alternate;
   }
 
   .animate-spin {
-    animation: spin 0s linear infinite;
+    animation: spin 2s linear infinite;
   }
-}
-
+} */
 
 
 

@@ -7,12 +7,12 @@ function Header(props) {
 
   return (
     <>
-      <section className=" justify-center items-center   mt-16  w-full mx-auto  ">
+      <section className=" justify-center items-center   mt-16  w-full mx-auto   ">
         {/* Left Side  */}
         <div className="text-center">
-          <div className="font-Poppins font-semibold text-[40px]">
+          <div className="font-Poppins dark:text-white font-semibold text-4xl">
             <h>
-              Start Learning with <span className="text-background">Unpadh</span> 
+              Start Learning with <span className="text-background ">Unpadh</span> 
               <br /> and achieve your goals
             </h>
           </div>
@@ -26,18 +26,30 @@ function Header(props) {
        <div className="container flex flex-col items-center pt-16 ">
        <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center justify-center "> 
        {/* images  */}
-        <div className="items-center justify-center ">
-            <img src="Group 17.png" alt="" />
+        <div data-aos="fade-left"
+           
+        
+        className="items-center relative  z-20 justify-center ">
+            <img src="Group 17.png" alt="" className="relative  z-20" />
+              <div className="absolute w-[80px] z-0 inset- h-[75px] bg-background rounded-full -top-5 -left-5">
+
+          </div>
           </div>
            {/* text container  */}
-          <div className=" font-Poppins text-[16px] font-normal ">
+          <div
+            data-aos="fade-right"
+           
+           className=" font-Poppins text-lg font-medium dark:text-white ">
             <h1>
               Some of the benefits that you will get if you join us and become a<br/>
               passionate student, you will get insight and knowledge as well as<br/>
               relationships and international certificates
             </h1>
-            <HeadingCard />
+          <HeadingCard />
+
+          
           </div>
+         
          
           
         </div>

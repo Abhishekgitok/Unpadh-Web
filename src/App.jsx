@@ -1,5 +1,7 @@
 // App.js
-import React from 'react';
+import React, { useEffect } from 'react';
+import AOS from "aos"
+import "aos/dist/aos.css"
 
 import Nav from './components/Navbar/Menubar';
 import HeroSection from './components/HeroSection';
@@ -12,15 +14,25 @@ import Subscribe from './components/SubscribePage/Subscribe';
 import Footer from './components/Footer';
 
 
+
 // import Card from './components/Course/card';
 
 
 
 
 function App() {
+  useEffect(() =>{
+    AOS.init({
+      offset:100,
+      duration:400,
+      easing:"ease-in-sine",
+      
+    });
+    AOS.refresh();
+  }, []);
   return (
     
-      <main className=" bg-white mx-auto overflow-hidden   ">
+      <main className=" bg-white dark:bg-zinc-900 mx-auto overflow-hidden   ">
        <Nav/>
       <HeroSection/>
       <Header/>

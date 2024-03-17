@@ -7,7 +7,7 @@ function Footer () {
   return (
     <>
     <footer
-      className="bg-teal-300 text-center  lg:text-left ">
+      className="bg-teal-200 text-center  lg:text-left ">
       <div
         className="flex text-lg items-center justify-center   p-6  lg:justify-end">
         {/* <div className="mr-12 hidden lg:block font-medium">

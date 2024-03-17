@@ -34,9 +34,9 @@ function ChooseCard() {
 
     return (
         <ScrollTrigger onEnter={() => setcounteron(true)} onExit={()=> setcounteron(false)}>
-               <div className="flex flex-wrap gap-24     ">
+               <div className="flex flex-wrap gap-16     ">
             {card.map((data, index) => (
-                <div key={index} className="max-w-xs  rounded overflow-hidden  bg-white hover:shadow-xl transition duration-300 ease-in-out">
+                <div key={index} className="max-w-xs p-3 rounded overflow-hidden  bg-teal-50  hover:shadow-xl transition duration-300 ease-in-out">
                     <div className=" flex text-2xl  text-background">
                         
                         <h1 className="  text-2xl  font-semibold text- tracking-wider">
