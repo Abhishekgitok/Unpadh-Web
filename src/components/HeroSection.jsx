@@ -65,7 +65,7 @@ function HeroSection() {
             </div>
             {/* images container  */}
             <div className="">
-            <div className="  max-w-[400px] md:max-w-lg pl-8 md:pt-12 ">
+            <div className="  max-w-[400px] md:max-w-xl pl-8 md:pt-12 ">
               <img src="about.png" alt="" className="   relative     " />
               
             </div>
