@@ -17,7 +17,7 @@ function StudentRevies() {
           <div className="font-Poppins font-semibold text-[20px] capitalize tracking-widest text-background">
             {/* <h>testimonials</h> */}
           </div>
-          <div className=" font-Poppins text-[40px] font-semibold mt-4 tracking-wide">
+          <div className=" font-Poppins text-[40px] font-semibold mt-4 tracking-wide dark:text-white">
             <h1>What’s Our Students Are Sayying</h1>
           </div>
         </div>

@@ -26,13 +26,13 @@ function HeadingCard() {
     return (
         <div className="grid grid-cols-1 gap-4 pt-5 justify-center  items-center ">
             {card.map((data, index) => (
-                <div key={index} className="max-w-xs  bg-teal-50 rounded overflow-hidden  bg hover:shadow-xl transition duration-300 ease-in-out">
+                <div key={index} className="max-w-xs p-2  bg-teal-50 dark:bg-zinc-800 rounded-lg overflow-hidden  bg hover:shadow-xl transition duration-300 ease-in-out">
                     <div className="p-2 flex text-2xl  text-background">
                         {data.icon}
-                        <h1 className="ml-[20px]  text-lg font-semibold text-textcolor tracking-wide">{data.title}</h1>
+                        <h1 className="ml-[20px]  text-lg font-semibold text-textcolor tracking-wide dark:text-white">{data.title}</h1>
                     </div>
                     <div className="">
-                        <p className="ml-[53px] mb-3 text-sm  text-gray-600 tracking-wide">
+                        <p className="ml-[53px] mb-3 text-sm  text-gray-600 tracking-wide dark:text-gray-200">
                             {data.subtitle}
                         </p>
                     </div>

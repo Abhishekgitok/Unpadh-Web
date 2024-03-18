@@ -36,7 +36,7 @@ function ChooseCard() {
         <ScrollTrigger onEnter={() => setcounteron(true)} onExit={()=> setcounteron(false)}>
                <div className="flex flex-wrap gap-16     ">
             {card.map((data, index) => (
-                <div key={index} className="max-w-xs p-3 rounded overflow-hidden  bg-teal-50  hover:shadow-xl transition duration-300 ease-in-out">
+                <div key={index} className="max-w-xs p-3 rounded overflow-hidden  bg-teal-50 dark:bg-zinc-900  hover:shadow-xl transition duration-300 ease-in-out">
                     <div className=" flex text-2xl  text-background">
                         
                         <h1 className="  text-2xl  font-semibold text- tracking-wider">
@@ -45,7 +45,7 @@ function ChooseCard() {
                             </h1>
                     </div>
                     <div className="">
-                        <p className=" mb-3 text-lg   text-gray-600 tracking-wider">
+                        <p className=" mb-3 text-lg   text-gray-600 dark:text-gray-200 tracking-wider">
                             {data.title}
                         </p>
                     </div>

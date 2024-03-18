@@ -65,7 +65,7 @@ function StudentReviesFile() {
 
       img: "women2.jpg",
       title:
-        "I wanted to take a moment to express my sincere gratitude for the incredible educational journey your platform has facilitated for me. The diverse range of resources and opportunities have been instrumental in broadening my horizons and nurturing my passion for learning.",
+        "I gratitude for the incredible educational journey your platform has facilitated for me. The diverse range of resources and opportunities have been instrumental in broadening my horizons and nurturing my passion for learning.",
       subtitle: "Anushka Anu",
       course: "Bsc Student",
     },
@@ -87,19 +87,19 @@ function StudentReviesFile() {
         <Slider {...settings}>
           {stuCard.map((data, index) => (
             <div key={index} className=" items-center justify-center mx-auto  ">
-              <div className="  border-2 border-gray-400 bg-slate-200 p-8 rounded-xl ">
-                <img src={data.commaimg} alt="no img" className="h-8" />
-                <p>{data.title}</p>
+              <div className="  border-2 border-gray-400 dark:border-background bg-slate-200 dark:bg-zinc-800 p-8 rounded-xl ">
+                <img src={data.commaimg} alt="no img" className="h-8 dark:text-gray-200" />
+                <p className="dark:text-gray-200">{data.title}</p>
 
                 
                  <div className="inline-flex items-center">
                  <img
-                    className="h-[100px] w-[100px] object-cover object-center rounded-full  border-[5px] border-yellow-300"
+                    className="h-[80px] w-[80px] mt-4 object-cover object-center rounded-full  border-[5px] border-yellow-300"
                     src={data.img}
                     alt="icon"/>
                     <span className="flex flex-col pl-4">
-                      <span className="font-bold ">{data.subtitle}</span>
-                      <span className="text-sm">{data.course}</span>
+                      <span className="font-bold dark:text-gray-200 ">{data.subtitle}</span>
+                      <span className="text-sm dark:text-gray-200">{data.course}</span>
                     </span>
 
 

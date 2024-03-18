@@ -9,7 +9,7 @@ function HeroSection() {
   const cols = 4;
   return (
     <>
-      <div className=" h-[750px] md:h-[580px]  bg-background dark:bg-zinc-900  ">
+      <div className=" h-[750px] md:h-[580px]  bg-background dark:bg-zinc-800  ">
         <section className="container flex flex-col items-center justify-between ">
           <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-10">
             {/* text container  */}

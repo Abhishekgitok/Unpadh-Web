@@ -57,8 +57,12 @@ function Nav (){
               Contact Us
             </Link>
           </li>
+          
+          
+         </ul>
           {/* Light and dark mode switcher */}
-          {theme === "dark" ? (
+         <div className="pb-2 md:pb-0">
+         {theme === "dark" ? (
                 <BiSolidSun
                   onClick={() => setTheme("light")}
                   className="text-2xl"
@@ -69,8 +73,7 @@ function Nav (){
                   className="text-2xl"
                 />
               )}
-          
-         </ul>
+         </div>
          <div className="md:block hidden ">
          <div className="relative rounded-full flex xs:ml-12 mt-4 sm:gap-5 sm:ml-10 sm:mt-4 lg:gap-4 lg:ml-0 lg:mt-0 box-border">
               
@@ -99,7 +102,7 @@ function Nav (){
         {/* Mobile nav */}
         <ul
           className={`
-        md:hidden bg-white fixed w-full top-0 overflow-y-auto bottom-0 py-24 pl-4
+        md:hidden bg-white z-30 fixed w-full top-0 overflow-y-auto bottom-0 py-24 pl-4
         duration-500 ${open ? "left-0" : "left-[-100%]"}
         `}
         >
@@ -108,11 +111,7 @@ function Nav (){
               Home
             </Link>
           </li>
-          <li>
-            <Link to="/" className="py-7 px-3 inline-block">
-              Home
-            </Link>
-          </li>
+         
           <NavLinks />
         
         </ul>

@@ -7,7 +7,7 @@ function Footer () {
   return (
     <>
     <footer
-      className="bg-teal-200 text-center  lg:text-left ">
+      className="bg-teal-200 dark:bg-zinc-800 text-center  lg:text-left ">
       <div
         className="flex text-lg items-center justify-center   p-6  lg:justify-end">
         {/* <div className="mr-12 hidden lg:block font-medium">
@@ -24,7 +24,7 @@ function Footer () {
   type="button"
   data-twe-ripple-init
   data-twe-ripple-color="light"
-  class="mb-2 inline-block rounded-full bg-[#1877f2] p-3 text-xs font-medium uppercase leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg">
+  class="mb-2 inline-block rounded-full bg-[#1877f2] p-3 text-xs font-medium uppercase leading-normal text-white shadow-md  hover:translate-x-1 duration-300   ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg">
   <span class="[&>svg]:h-4 [&>svg]:w-4">
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -44,7 +44,7 @@ function Footer () {
   type="button"
   data-twe-ripple-init
   data-twe-ripple-color="light"
-  class="mb-2 inline-block rounded-full bg-[#c13584] p-3 text-xs font-medium uppercase leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg">
+  class="mb-2 inline-block rounded-full bg-[#c13584] p-3 text-xs font-medium uppercase leading-normal text-white shadow-md  hover:translate-x-1 duration-300 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg">
   <span class="[&>svg]:h-4 [&>svg]:w-4">
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -66,7 +66,7 @@ function Footer () {
   type="button"
   data-twe-ripple-init
   data-twe-ripple-color="light"
-  class="mb-2 inline-block rounded-full bg-black p-3 text-xs font-medium uppercase leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg">
+  class="mb-2 inline-block rounded-full bg-black p-3 text-xs font-medium uppercase leading-normal text-white shadow-md  hover:translate-x-1 duration-300 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg">
   <span class="[&>svg]:h-4 [&>svg]:w-4">
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -86,7 +86,7 @@ function Footer () {
   type="button"
   data-twe-ripple-init
   data-twe-ripple-color="light"
-  class="mb-2 inline-block rounded-full bg-[#ff0000] p-3 text-xs font-medium uppercase leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg">
+  class="mb-2 inline-block rounded-full bg-[#ff0000] p-3 text-xs font-medium uppercase leading-normal text-white shadow-md  hover:translate-x-1 duration-300  ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg">
   <span class="[&>svg]:h-4 [&>svg]:w-4">
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -107,7 +107,7 @@ function Footer () {
   type="button"
   data-twe-ripple-init
   data-twe-ripple-color="light"
-  class="mb-2 inline-block rounded-full bg-[#0077b5] p-3 text-xs font-medium uppercase leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg">
+  class="mb-2 inline-block rounded-full  bg-[#0077b5] p-3 text-xs font-medium uppercase leading-normal text-white shadow-md hover:translate-x-1 duration-300 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg">
   <span class="[&>svg]:h-4 [&>svg]:w-4">
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -130,8 +130,8 @@ function Footer () {
         <div className="grid-1 grid gap-8 md:grid-cols-2 lg:grid-cols-4">
           {/* <!-- logo and paragraph sectio --> */}
           <div className="">
-            <img src="logo.png" alt="" className='mb-4 flex items-center justify-center  md:justify-start'   />
-            <p className='text-sm font-medium'>
+            <img src="logo.png" alt="" className='dark:hidden mb-4 flex items-center justify-center  md:justify-start'   />
+            <p className='text-sm font-medium dark:text-gray-200'>
             Unpadh is an open, online marketplace to access online courses where anyone can upload and sell a class. You don’t need to venture far or browse the different websites to get the quality technology and management course.
 
 
@@ -140,19 +140,19 @@ function Footer () {
           {/* <!-- Links section --> */}
           <div className="">
             <h6
-              className="mb-4 text-lg flex justify-center font-semibold uppercase md:justify-start">
-              Links
+              className="mb-4 text-lg flex justify-center font-semibold uppercase md:justify-start dark:text-background">
+             Important Links
             </h6>
-            <p className="mb-4">
-              <a className="text-gray-800 font-medium"
+            <p className="mb-4 hover:translate-x-1 duration-300">
+              <a className="text-gray-800 hover:translate-x-1 duration-300 cursor-pointer dark:text-blue-600 font-medium"
               >Business With Unpadh</a>
             </p>
-            <p className="mb-4">
-              <a className="text-gray-800 font-medium"
+            <p className="mb-4 hover:translate-x-1 duration-300">
+              <a className="text-gray-800 cursor-pointer hover:translate-x-1 duration-300 dark:text-blue-600 font-medium"
               >About Us</a>
             </p>
-            <p className="mb-4">
-              <a className="text-gray-800 font-medium"
+            <p className="mb-4 hover:translate-x-1 duration-300">
+              <a className="text-gray-800 cursor-pointer dark:text-blue-600 font-medium"
               >Contact Us</a>
             </p>
             
@@ -160,55 +160,52 @@ function Footer () {
           {/* <!-- About links section --> */}
           <div className="">
             <h6
-              className="mb-4 flex text-lg justify-center font-semibold uppercase md:justify-start">
+              className="mb-4 flex dark:text-background text-lg justify-center font-semibold uppercase md:justify-start">
               About
             </h6>
-            <p className="mb-4">
-              <a className="text-gray-800 font-medium"
+            <p className="mb-4 hover:translate-x-1 duration-300">
+              <a className="text-gray-800 cursor-pointer dark:text-blue-600 font-medium"
               >Partners</a>
             </p>
-            <p className="mb-4">
-              <a className="text-gray-800 font-medium"
+            <p className="mb-4 hover:translate-x-1 duration-300">
+              <a className="text-gray-800 cursor-pointer dark:text-blue-600 font-medium"
               >Careers</a>
             </p>
-            <p className="mb-4">
-              <a className="text-gray-800 font-medium"
+            <p className="mb-4 hover:translate-x-1 duration-300">
+              <a className="text-gray-800 cursor-pointer dark:text-blue-600 font-medium"
               >Press</a>
             </p>
-            <p>
-              <a className="text-gray-800 font-medium"
+            <p className='mb-4 hover:translate-x-1 duration-300'>
+              <a className="text-gray-800 cursor-pointer dark:text-blue-600 font-medium"
               >Community</a>
             </p>
           </div>
           {/* <!-- Contact section --> */}
           <div>
             <h6
-              className="mb-4 flex justify-center font-semibold text-lg uppercase md:justify-start">
+              className="mb-4 flex text-background justify-center font-semibold text-lg uppercase md:justify-start">
               Our office
             </h6>
-            <p className="mb-4 flex items-center justify-center text-gray-800 font-medium  md:justify-start">
-            <FaHome className='text-2xl mr-2 text-gray-950'/>
+            <p className="mb-4 hover:translate-x-1 duration-300 flex items-center justify-center text-gray-800 cursor-pointer dark:text-blue-600 font-medium  md:justify-start">
+            <FaHome className='text-2xl mr-2 text-gray-950 cursor-pointer dark:text-blue-600'/>
              New Delhi, india
             </p>
-            <p className="mb-4 flex items-center justify-center md:justify-start">
-            <MdEmail className='text-2xl mr-3 text-gray-950 ' />
+            <p className="mb-4 hover:translate-x-1 duration-300 flex items-center cursor-pointer dark:text-blue-600 justify-center md:justify-start">
+            <MdEmail className='text-2xl mr-3 text-gray-950 cursor-pointer dark:text-blue-600 ' />
               aaaaaa.com
             </p>
-            <p className="mb-4 flex items-center justify-center md:justify-start">
-            <FaPhoneAlt className='text-2xl mr-3 text-gray-950' />
+            <p className="mb-4 hover:translate-x-1 duration-300 flex items-center justify-center cursor-pointer dark:text-blue-600 md:justify-start">
+            <FaPhoneAlt className='text-2xl mr-3 text-gray-950 cursor-pointer dark:text-blue-600' />
               + 5555555555
             </p>
-            <p className="flex items-center justify-center md:justify-start">
-            <FaPhoneAlt className='text-2xl mr-3 text-gray-950' />
-              + 888888888
-            </p>
+            
           </div>
         </div>
       </div>
 
       {/* <!--Copyright section--> */}
-      <div className="bg-gray-200 p-6 text-center ">
-        <span>© 2024 All Copyright :</span>
+      <div className="bg-gray-200 dark:bg-zinc-900 p-6 text-center ">
+        <span className='dark:text-gray-200'>© 2024 All Copyright :</span>
         <a
           className="font-semibold text-background pl-2 "
           href=""

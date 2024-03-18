@@ -61,7 +61,7 @@ function ProgramCard () {
         <div className=" ">
             <Slider {...settings}>
                 {card.map((data, index) => (
-                    <div  key={index} className=" h-[250px] rounded-lg overflow-hidden  bg-slate-50 dark:bg-zinc-900  shadow-slate-400 border-2 border-gray-300 dark:border-background  transform transition duration-500 hover:scale-90   justify-center items-start flex cursor-pointer" >
+                    <div  key={index} className=" h-[250px] rounded-lg overflow-hidden  bg-slate-50 dark:bg-zinc-800  shadow-slate-400 border-2 border-gray-300 dark:border-background  transform transition duration-500 hover:scale-90   justify-center items-start flex cursor-pointer" >
                         <div className=" ">
                             <div  className=" h-20 w-20  mt-8 items-center mx-auto justify-center">
                                 <img src={data.img} alt="icon" />
