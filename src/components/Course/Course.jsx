@@ -7,6 +7,8 @@ import { FaAngleRight } from "react-icons/fa6";
 
 
 function Course () {
+
+  // for filter category 
  
     const [apiData, setapiData]= useState(cardData);
 
@@ -14,9 +16,11 @@ function Course () {
            const updateditems = cardData.filter((elem) => {
             return elem.category == categitem;
            })
+           
          setapiData(updateditems);
     } 
 
+    // for slider 
    const sliderLeft = () =>{
    var slider = document.getElementById('slider')
       slider.scrollLeft = slider.scrollLeft - 500

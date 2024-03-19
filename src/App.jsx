@@ -7,7 +7,7 @@ import Nav from './components/Navbar/Menubar';
 import HeroSection from './components/HeroSection';
 import Header from './components/Heading/Heading';
 import Program from './components/OurProgram/Program';
-import Course from './components/Course/Course';
+// import Course from './components/Course/Course';
 import Chooseprogram from './components/ChooseProgram/Chooseprogram';  
 import StudentRevies from './components/Testimonials/StudentRevies';
 import Subscribe from './components/SubscribePage/Subscribe';
@@ -15,7 +15,8 @@ import Footer from './components/Footer';
 
 
 
-// import Card from './components/Course/card';
+
+import Card from './components/Course/card';
 
 
 
@@ -37,7 +38,8 @@ function App() {
       <HeroSection/>
       <Header/>
       <Program/>
-      <Course/>
+      <Card/>
+      {/* <Course/> */}
       <Chooseprogram/>
      <StudentRevies/>
      <Subscribe/>

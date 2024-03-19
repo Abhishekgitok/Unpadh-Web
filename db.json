@@ -3,39 +3,87 @@
     {
       "id": "1",
       "category": "science",
-      "title": "a title",
-      "name": "Saraubh kumar",
+      "img":"datascience1.webp",
+      "title": "The Data Science Course: Complete Data Science Bootcamp 2024",
+      "name": "Suraubh Sharma",
       "time": "4h 45m",
-      "dicountPrice": "599",
-      "actualprice": "699",
-      "img": "httpskdkjf"
+      "price": "$499",
+      "maxprice":"$899"
+      
+     
     },
     {
-      "id": "e0a6",
+      "id": "2",
       "category": "engineering",
-      "title": "a title",
-      "name": "Saraubh kumar",
+      "img":"course.jpg",
+      "title": "HTML/CSS With Real Life Projects And cover All Topices ",
+      "name": "Suraubh Sharma",
       "time": "4h 45m",
-      "dicountPrice": "499",
-      "actualprice": "699"
-    },
-    {
-      "id": "2815",
-      "category": "engineering",
-      "title": "a title",
-      "name": "Saraubh kumar",
-      "time": "4h 45m",
-      "dicountPrice": "499",
-      "actualprice": "699"
+      "price": "$499",
+      "maxprice":"$899"
+      
+     
     },
     {
       "id": "3",
-      "category": "engineering",
-      "title": "a title",
-      "name": "Saraubh kumar",
+      "category": "science",
+      "img":"datascience2.webp",
+      "title": "Data Science : Complete Data Science & Machine Learning",
+      "name": "Suraubh Sharma",
       "time": "4h 45m",
-      "dicountPrice": "499",
-      "actualprice": "699"
+      "price": "$499",
+      "maxprice":"$899"
+      
+     
+    },
+    {
+      "id": "4",
+      "category": "engineering",
+      "img":"Android.avif",
+      "title": "Android Development With Projects",
+      "name": "Suraubh Sharma",
+      "time": "4h 45m",
+      "price": "$499",
+      "maxprice":"$899"
+      
+     
+    },
+    {
+      "id": "5",
+      "category": "engineering",
+      "img":"Android.avif",
+      "title": "Programming Foundations: Algorithm",
+      "name": "Suraubh Sharma",
+      "time": "4h 45m",
+      "price": "$499",
+      "maxprice":"$899"
+      
+     
+    },
+    {
+      "id": "6",
+      "category": "engineering",
+      "img":"Mern.png",
+      "title": "Full Stack using MERN",
+      "name": "Suraubh Sharma",
+      "time": "4h 45m",
+      "price": "$499",
+      "maxprice":"$899"
+      
+     
+    },
+    {
+      "id": "7",
+      "category": "science",
+      "img":"Mern.png",
+      "title": "Full Stack using MERN",
+      "name": "Suraubh Sharma",
+      "time": "4h 45m",
+      "price": "$499",
+      "maxprice":"$899"
+      
+     
     }
+
   ]
 }

@@ -12,8 +12,8 @@ const cardData =[
         views:"2,307,131",
         price: "$499",
         maxprice:"$899",
-        timeicon:<IoMdTime />,
-        viewicon:<IoEyeSharp />
+        timeicon:<IoMdTime />
+       
 
 
     },
