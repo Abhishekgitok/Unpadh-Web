@@ -10,7 +10,7 @@ function Course() {
   // Fetch data from the server
   const getMyPostData = async () => {
     try {
-      const res = await axios.get("http://localhost:9000/course");
+      const res = await axios.get("https://chartreuse-green-bison-toga.cyclic.app/course");
       setMyData(res.data);
     } catch (error) {
       setIsError(error.message);
