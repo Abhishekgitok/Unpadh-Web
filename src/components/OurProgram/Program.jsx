@@ -16,12 +16,12 @@ function Program () {
     <section className='max-w-[1280px]   mx-auto mt-[80px]'>
         {/* Title And Subtitle  */}
         <div className="text-center">
-         <div className="font-Poppins font-semibold text-4xl text-white">
+         <div className="font-Poppins font-semibold text-4xl dark:text-white">
             <h>
                Our Popular Program
             </h>
            </div>
-           <div className=" font-Poppins text-white text-xl font-medium pt-3">
+           <div className=" font-Poppins dark:text-white text-xl font-medium pt-3">
             <h1>
                  Get the world class & verified program 
 

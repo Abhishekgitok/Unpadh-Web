@@ -9,16 +9,13 @@ function Header(props) {
     <>
       <section className=" justify-center items-center   mt-16  w-full mx-auto   ">
         {/* Left Side  */}
-        <div className="text-center">
-          <div className="font-Poppins dark:text-white font-semibold text-4xl">
+        <div className="">
+          <div className="font-Poppins justify-center items-center flex dark:text-white font-semibold text-4xl">
             <h>
-              Start Learning with <span className="text-background ">Unpadh</span> 
-              <br /> and achieve your goals
+              Start Learning with <span className="text-background ">Unpadh</span> and achieve your goals
             </h>
           </div>
-          {/* <div className="absolute w-[80px] h-[75px] bg-background rounded-[15px] top-[150px]">
-
-          </div> */}
+         
           
         </div>
 

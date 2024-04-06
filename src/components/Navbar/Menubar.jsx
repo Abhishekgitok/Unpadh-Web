@@ -9,15 +9,13 @@ import { BiSolidSun,  BiSolidMoon } from "react-icons/bi";
  
 function Nav (){
 
+  // for dark mode 
+
   const [theme, setTheme] = useState(
     localStorage.getItem("theme") ? localStorage.getItem("theme") : "light",
   );
 
-
   const element = document.documentElement;
-
- 
-
   useEffect(() => {
     if (theme === "dark") {
       element.classList.add("dark");
@@ -29,15 +27,24 @@ function Nav (){
       console.log("light theme");
     }
   }, [theme]);
-  const [open, setOpen] = useState(false);
+//  for responsive navbar 
+ const [open, setOpen] = useState(false);
+
   return (
     <nav className="bg-white">
       <div className="flex items-center font-medium justify-around">
         <div className="z-50 p-5 md:w-auto w-full flex justify-between">
+          {/* for logo  */}
+
+         
           <img src="logo.png" alt="logo" className="md:cursor-pointer h-9" />
+         
+
+          {/* for responsive nav icon  */}
           <div className="text-3xl md:hidden" onClick={() => setOpen(!open)}>
             <ion-icon name={`${open ? "close" : "menu"}`}></ion-icon>
           </div>
+          
         </div>
         <ul className="md:flex hidden capitalize items-center  font-[Poppins]">
           
@@ -91,7 +98,7 @@ function Nav (){
                id="button-addon3"
                data-twe-ripple-init
               >
-               Sign Up
+               <Link to="/signup">Sign Up</Link>
              </button>
            </div>
 
